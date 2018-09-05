@@ -298,6 +298,8 @@ function petName(job, name) {
     if (job == 'CBO') {
         if (lang == "KR")
             return '초코보 (YOU)'
+        else if (lang == "陆行鸟")
+            return '陆行鸟 (YOU)'
         else if (lang == "JP")
             return 'チョコボ (YOU)'
         else

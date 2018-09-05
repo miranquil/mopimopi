@@ -112,7 +112,7 @@ Mopi2 = {
         tooltips: 1,
         toast: 1, 
 
-        Lang: "KR",     
+        Lang: "CN",     
 
         fTime: 'DS-Digital',
         fTarget: 'Segoe UI',

@@ -165,21 +165,21 @@ d = {
         JP: "設定する前の注意事項",
         EN: "Read Me First",
         DE: "Erst alles genau durchlesen, dann Einstellungen vornehmen!",
-        CN: "设置前的注意事项",
+        CN: "配置前请先阅读",
     },
     caution_m1:{
         KR: '<br>키보드로 직접 입력 시,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ 오버레이 관리자 ❯ 설정 ❯ <font class="ac"><b>키 입력 무시, 자동 숨기기(~~.exe)</b> 체크 해제</font> 필수입니다.<br><br><font class="ac">❖ PC에서 한글 입력 시 메모장 등에 데이터를 입력하고 복사(Ctrl+C)후 붙여넣기(Ctrl+V)합니다.</font>',
         JP: '<br>キーボード入力の場合は,<br>ACT > Plugins > ACTWebSocket > Open Manager > Preferences ❯ <font class="ac"><b>No Focus</b>のチェークを解除</font>してください。',
         EN: '<br>When you type directly,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">UNCHEKED <b>No Focus</b></font>',
         DE: '<br>Wenn du direkt schreiben möchtest, gehe wie folgt vor:,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">DEAKTIVIERE <b>No Focus</b></font>',
-        CN: '<br>在键盘输入的情况下，<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac"><b>No Focus</b> 请取消勾选。</font>',
+        CN: '<br>若要直接输入，在<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ 取消勾选 <font class="ac"><b>No Focus</b>。</font>',
     },
     caution_m2: {
         KR: '<br>키보드로 직접 입력 시,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ 오버레이 관리자 ❯ 설정 ❯ <font class="ac"><b>키 입력 무시, 자동 숨기기(~~.exe)</b> 체크 해제</font> 필수입니다.<br><br><font class="ac">❖ 모바일 환경에서는 해당 기능을 지원하지 않습니다.<br>❖ 글꼴 이름만 입력합니다. (글꼴 스타일 제외)<br>❖ 글꼴 파일이 손상됐거나 글꼴 이름을 잘못 입력한 경우 기본값으로 적용합니다.<br>❖ PC에서 한글 입력 시 메모장 등에 데이터를 입력하고 복사(Ctrl+C)후 붙여넣기(Ctrl+V)합니다.</font>',
         JP: '<br>キーボード入力の場合は,<br>ACT > Plugins > ACTWebSocket > Open Manager > Preferences ❯ <font class="ac"><b>No Focus</b>のチェークを解除</font>してください。<br><br><font class="ac">❖ 携帯環境では該当オプションは使用できません。<br>❖ フォントの名前だけ入力してください。(フォントスタイル除外)<br>❖ フォントのファイルが損傷されている、もしくは名前が間違っている場合は基本フォントが適用されます。</font>',
         EN: '<br>When you type directly,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">UNCHEKED <b>No Focus</b></font><br><br><font class="ac">❖ This feature isn\'t supported in mobile environment.<br>❖ You only must be entered the font name. (EXCEPT font style)<br>❖ If the font file is corrupted or font name is entered incorrectly, it will be applied by default.</font>',
         DE: '<br>Wenn du direkt schreiben möchtest, gehe wie folgt vor:,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">DEAKTIVIERE <b>No Focus</b></font><br><br><font class="ac">❖ Dieses Feature wird nicht in der mobilen Umgebung unterstützt.<br>❖ Nur den Schriftart-Namen eintragen. (AUSNAHME: Schriftstil)<br>❖ Falls die Datei der Schriftart beschädigt oder der Name falsch geschrieben ist, wird die Standard-Schriftart angewendet.</font>',
-        CN: '<br>在键盘输入的情况下，<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac"><b>No Focus</b> 请取消勾选。</font><br><br><font class="ac">❖ 移动端不支持此功能。<br>❖ 您只能输入字体名称。 (除字体样式外)<br>❖ 如果字体文损坏或者不存在，则使用默认字体。</font>',
+        CN: '<br>若要直接输入，在<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ 取消勾选 <font class="ac"><b>No Focus</b>。</font><br><br><font class="ac">❖ 移动端不支持此功能。<br>❖ 只需输入字体名称。 (除字体样式外)<br>❖ 若字体文件损坏或不存在，则使用默认字体。</font>',
     },
     input_font:{        
         m: {
@@ -187,7 +187,7 @@ d = {
             JP: "フォントの名前",
             EN: "Font Name",
             DE: "Schriftart-Namen",
-            CN: "字体名字",
+            CN: "字体名",
         },
         i: 'text_fields',
         e: 'li_text_inbtn',
@@ -247,7 +247,7 @@ d = {
         JP: "テーブル",
         EN: "Table",
         DE: "Tabellen",
-        CN: "表",
+        CN: "表格",
     },
     graph:{
         KR: "그래프",
@@ -282,14 +282,14 @@ d = {
         JP: "ヘッダー",
         EN: "Header",
         DE: "Kopf",
-        CN: "头部",
+        CN: "表头",
     },
     headerText:{
         KR: "헤더 글자",
         JP: "ヘッダーテキスト",
         EN: "Header Text",
         DE: "Text auf den Kopf",
-        CN: "头部文字",
+        CN: "表头文本",
     },
     body:{        
         KR: "바디",
@@ -303,14 +303,14 @@ d = {
         JP: "区分線<font class='ex'>　❙ 横</font>",
         EN: "Division Lines<font class='ex'>　❙ Horizontal</font>",
         DE: "Trennlinien<font class='ex'>　❙ Horizontal</font>",
-        CN: "分界线<font class='ex'>　❙ 横</font>",
+        CN: "分割线<font class='ex'>　❙ 水平</font>",
     },
     line_ve:{
         KR: "구분선<font class='ex'>　❙ 세로</font>",
         JP: "区分線<font class='ex'>　❙ 縦</font>",
         EN: "Division Lines<font class='ex'>　❙ Vertical</font>",
         DE: "Trennlinien<font class='ex'>　❙ Vertical</font>",
-        CN: "分界线<font class='ex'>　❙ 竖</font>",
+        CN: "分割线<font class='ex'>　❙ 垂直</font>",
     },
     radius:{
         tt: {
@@ -425,7 +425,7 @@ d = {
                 JP: "自分のキャラクター & 他のキャラクター",
                 EN: "My Character & Other Character",
                 DE: "Eigenen Charakter & Andere Charaktere",
-                CN: "自己角色 & 其他角色",
+                CN: "个人角色 & 其他角色",
             }
         },
         i: "palette",
@@ -439,7 +439,7 @@ d = {
             JP: "自キャラ色の固定",
             EN: "Apply My Character Color",
             DE: "Eigene Farbe für eigenen Charakter",
-            CN: "固定自己角色的颜色",
+            CN: "应用个人角色颜色",
         },
         i: "person",
         e: "li_checkbox",
@@ -451,7 +451,7 @@ d = {
             JP: "自分のキャラクター",
             EN: "My Character",
             DE: "Mein Charakter",
-            CN: "自己角色",
+            CN: "个人角色",
         },
         i: "format_color_fill",
         e: "li_color",
@@ -551,7 +551,7 @@ d = {
             JP: "クラスもしくはジョブアイコン",
             EN: "Player\'s class or job icon.",
             DE: "Klassen/Job-Icon des Kämpfers.",
-            CN: "玩家职业图标",
+            CN: "玩家职业/特职图标",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -575,7 +575,7 @@ d = {
             JP: "戦闘ログ収集時間<br><span class='ac'> = 自らの攻撃した時点</span>",
             EN: "The duration of the combatant.",
             DE: "Kampfzeit des Charakters.",
-            CN: "战斗日志收集时间<br><span class='ac'> = 自己开始攻击时</span>",
+            CN: "战斗日志收集时间<br><span class='ac'> = 自身攻击时间</span>",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -587,7 +587,7 @@ d = {
             JP: "1秒あたりのダメージ<br><span class='ac'> = P.Time 時点</span>",
             EN: "The damage total of the combatant divided by their personal duration.",
             DE: "Gesamtschaden der Person dividiert durch die persönliche Kampfzeit.",
-            CN: "每秒伤害<br><span class='ac'> = 战斗总伤害除以个人战斗时间</span>",
+            CN: "每秒伤害<br><span class='ac'> = 战斗总伤害除以自身攻击时间</span>",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -599,7 +599,7 @@ d = {
             JP: "戦闘ログ収集時間<br><span class='ac'> = パティー初めて攻撃した時点</span>",
             EN: "The duration of the encounter.",
             DE: "Die Kampfzeit.",
-            CN: "战斗日志收集时间<br><span class='ac'> = 队伍开始攻击时</span>",
+            CN: "战斗日志收集时间<br><span class='ac'> = 团队攻击时间</span>",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -611,7 +611,7 @@ d = {
             JP: "1秒あたりのダメージ<br><span class='ac'> = Time 時点、オフィシャル</span>",
             EN: "The damage total of the combatant divided by the duration of the encounter.<br><span class='ac'> = This is more commonly used than P.DPS</span>",
             DE: "Gesamtschaden dividiert durch die Kampfzeit.<br><span class='ac'> = Diese Option ist weiter verbreitet als P.DPS.</span>",
-            CN: "每秒伤害<br><span class='ac'> = 战斗总伤害除以战斗时间</span>",
+            CN: "每秒伤害<br><span class='ac'> = 战斗总伤害除以团队攻击时间</span>",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -623,7 +623,7 @@ d = {
             JP: "最近10秒間の平均DPS",
             EN: "Average DPS for last 10 seconds.",
             DE: "Durchschnittlicher DPS der letzten 10 Sekunden.",
-            CN: "最近10秒内的平均DPS",
+            CN: "10秒内平均DPS",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -635,7 +635,7 @@ d = {
             JP: "最近30秒間の平均DPS",
             EN: "Average DPS for last 30 seconds.",
             DE: "Durchschnittlicher DPS der letzten 30 Sekunden.",
-            CN: "最近30秒内的平均DPS",
+            CN: "30秒内平均DPS",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -647,7 +647,7 @@ d = {
             JP: "最近60秒間の平均DPS",
             EN: "Average DPS for last 60 seconds.",
             DE: "Durchschnittlicher DPS der letzten 60 Sekunden.",
-            CN: "最近60秒内的平均DPS",
+            CN: "60秒内平均DPS",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -659,7 +659,7 @@ d = {
             JP: "最近180秒間の平均DPS",
             EN: "Average DPS for last 180 seconds.",
             DE: "Durchschnittlicher DPS der letzten 180 Sekunden.",
-            CN: "最近180秒内的平均DPS",
+            CN: "180秒内平均DPS",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -671,7 +671,7 @@ d = {
             JP: "総ダメージ量の中自キャラの寄與率",
             EN: "This value represents the percent share of all damage done by allies in this encounter.",
             DE: "Prozentualer Anteil am Gesamtschadens der Gruppe.",
-            CN: "在总伤害里自己的伤害占比",
+            CN: "自身伤害值于总伤害所占比例",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -695,7 +695,7 @@ d = {
             JP: "攻撃回数<br><span class='ac'> = オートアタック、DOT、スキルキャンセル含め</span>",
             EN: "The number of attack attempts.<br><span class='ac'> = This includes any auto-attacks or abilities, also including resisted abilities that do no damage.</span>",
             DE: "Ausgeführte Aktionen.<br><span class='ac'> = Umfasst jede Auto-Attacke und Fähigkeit.</span>",
-            CN: "攻击次数<br><span class='ac'> = 包含自动攻击，DOT，技能，以及没有伤害的无效攻击。</span>",
+            CN: "攻击次数<br><span class='ac'> = 包含自动攻击、DOT、能力，以及未造成伤害的攻击。</span>",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -707,7 +707,7 @@ d = {
             JP: "攻撃の命中回数",
             EN: "The number of attack attempts that produced damage.",
             DE: "Ausgeführte Aktionen, welche Schaden verursacht haben.",
-            CN: "攻击的命中次数",
+            CN: "攻击命中次数",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -719,7 +719,7 @@ d = {
             JP: "攻撃のミス回数",
             EN: "The number of auto-attacks of CAs that produced a miss message.",
             DE: "Anzahl der Auto-Attacken oder Fähigkeiten welche nicht getroffen haben.",
-            CN: "攻击的失误次数",
+            CN: "攻击失误次数",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -731,7 +731,7 @@ d = {
             JP: "攻撃の失敗回数<br><span class='ac'> = 敵の抵抗、反射、ブロック、回避など</span>",
             EN: "Any type of failed attack that was not a miss.<br><span class='ac'> = This includes resists, reflects, blocks, dodging, etc.</span>",
             DE: "Anzahl der Attacken, die keinen Schaden verursacht haben, aber kein Miss waren.<br><span class='ac'> = Umfasst: Widerstände, Reflektionen, Ausgeweichen, blocken, usw.</span>",
-            CN: "攻击失败次数<br><span class='ac'> = 包括目标的抵抗，反射，阻挡，回避等</span>",
+            CN: "任何非失误的攻击失败次数<br><span class='ac'> = 包含抗性、反弹、格挡、回避等。</span>",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -803,7 +803,7 @@ d = {
             JP: "ダイレクトヒットクリティカル回数",
             EN: "The number of hits that were critical as well as direct hit.",
             DE: "Anzahl der Treffer, die direct und kritisch getroffen haben.",
-            CN: "直击暴击次数",
+            CN: "直暴击次数",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -815,7 +815,7 @@ d = {
             JP: "ダイレクトヒットクリティカル率",
             EN: "The percentage of hits that were direct hits as well as critical hits.",
             DE: "Prozentualer Anteil der Treffer, die direct und kritisch getroffen haben.",
-            CN: "直击暴击率",
+            CN: "直暴击率",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -839,7 +839,7 @@ d = {
             JP: "1秒あたりのヒール量<br><span class='ac'> = Time 時点、オフィシャル</span>",
             EN: "The healing total of the combatant divided by the duration of the encounter.",
             DE: "Summe der verursachen Heilung dividiert durch die Kampfzeit.",
-            CN: "每秒疗伤<br><span class='ac'> = 治疗总量除以战斗时间</span>",
+            CN: "每秒治疗量<br><span class='ac'> = 治疗总量除以战斗时间</span>",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -851,7 +851,7 @@ d = {
             JP: "総ヒール量の中自キャラの寄與率",
             EN: "The value represents the percent share of all healing done by allies in this encounter.",
             DE: "Prozentualer Anteil an der gesamten Heilung der Gruppe.",
-            CN: "在总治疗量里自己的治疗量占比",
+            CN: "自身治疗量于总治疗量所占比例",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -887,7 +887,7 @@ d = {
             JP: "バリアヒール量",
             EN: "The amount of damage blocked by shield abilities of healer.",
             DE: "Summe des Schadens, welcher durch Schilde der Healer absorbiert wurde.",
-            CN: "治疗防护罩抵消的伤害",
+            CN: "伤害吸收盾抵消的伤害。",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -899,7 +899,7 @@ d = {
             JP: "オーバーヒール量",
             EN: "The amount of healing that made flood over 100% of health.",
             DE: "Summe der Heilung, welche über 100% Gesundheit verursacht wurde.",
-            CN: "无效治疗量",
+            CN: "超出生命最大值的过量治疗量。",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -911,7 +911,7 @@ d = {
             JP: "オーバーヒール率",
             EN: "The percentage of heals above target\'s Max HP.",
             DE: "Prozentualer Anteil der Heilung, welche über 100% Gesundheit verursacht wurde.",
-            CN: "无效治疗占比",
+            CN: "过量治疗量比例",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -923,7 +923,7 @@ d = {
             JP: "ヒール回数<br><span class='ac'> = HOT、スキルキャンセル含む</span>",
             EN: "The number of heals from this combatant.",
             DE: "Anzahl der verursachen Heilungen.<br><span class='ac'> = Umfasst auch Heilung von jedem Tick von HoTs wie Regena.</span>",
-            CN: "治疗次数<br><span class='ac'> = 包含HOT，技能等</span>",
+            CN: "治疗次数<br><span class='ac'> = 包含HOT，能力等</span>",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -959,7 +959,7 @@ d = {
             JP: "最大回復のスキル",
             EN: "The highest single healing amount.",
             DE: "Größte verursachte Heilung.",
-            CN: "最大治疗技能",
+            CN: "技能最大治疗量",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -971,7 +971,7 @@ d = {
             JP: "受けた被ダメージ量",
             EN: "The amount of damage this combatant received.",
             DE: "Summe des erhaltenen Schadens.",
-            CN: "承伤量",
+            CN: "伤害承受量",
         },
         e: "li_2line_checkbox",
         ul: 1
@@ -995,7 +995,7 @@ d = {
             JP: "スキルのよるHP回復量",
             EN: "The amount of power this combatant drained from others.",
             DE: "Summe der Lebenspunkte, die durch Kampffähigkeiten regeneriert wurden.",
-            CN: "根据技能的HP恢复量",
+            CN: "生命汲取量",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -1007,7 +1007,7 @@ d = {
             JP: "スキルのよるMP回復量",
             EN: "The amount of power this combatant replenished to others.",
             DE: "Summe der Mana, die durch Fähigkeiten regneriert wurde.",
-            CN: "根据技能的MP恢复量",
+            CN: "魔力汲取量",
         },
         e: "li_2line_checkbox",
         ul: 0
@@ -1043,7 +1043,7 @@ d = {
             JP: "デバフ解除スキルの使用回数",
             EN: "The number of times the combatant dispelled.",
             DE: "Anzahl der Zauber, welche negative Statuseffekte entfernt haben.",
-            CN: "驱散debuff次数",
+            CN: "驱散次数",
         },
         e: "li_2line_checkbox",
         ul: 1
