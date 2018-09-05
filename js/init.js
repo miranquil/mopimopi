@@ -496,3 +496,10 @@ Mopi2 = {
         }
     }
 }
+
+if (Mopi2.q.Lang === 'CN') {
+    Mopi2.q.fTarget = '微软雅黑'
+    Mopi2.q.fRPS = 'Georgia'
+    Mopi2.q.fHd = 'Georgia'
+    Mopi2.q.fBody = '微软雅黑'
+}
