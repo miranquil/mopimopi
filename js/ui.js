@@ -48,7 +48,7 @@ function initOverlay(val) {
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
         $('.btn_wrap').show()
         for (var i in l.Notice) {
-            if (lang == "KR")
+            if (lang == "KR" || lang == "CN")
                 $('#' + i).html(l.Notice[i][lang])
             else
                 $('#' + i).html(l.Notice[i].EN)
