@@ -8,12 +8,12 @@ l = {
         tip: {
             KR: 'PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.',
             EN: 'PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.',
-            CN: 'PC Users : <b>OverlayProc ❯ 务必勾选 "AppRegion"</b> 以限制拖放区域。'
+            CN: 'PC Users : <b>OverlayProc > 务必勾选 "AppRegion"</b> 以限制拖放区域。'
         },
         update: {
             KR: '<div name="row"><div class="u"></div><div class="m">[인벤/Proark] 데이터 ❯ MaxHit, MaxHeal 단위 (ACT ver.3.3.2.256 이하만 사용 가능)</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] 중국 서버 소환사 펫 합산 오류</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] 독일어 데이터 추가</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] ACT 3.3.2.257_180825 업데이트 대응 ❯ MaxHit/Heal 단위 강제 적용</div></div><div name="row"><div class="b"></div><div class="m">백업 No Data 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 디자인 ❯ 고급 설정 ❯ 글자 테두리 유형</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 디자인 ❯ 색 ❯ 글자 테두리</div></div><div name="row"><div class="b"></div><div class="m">클래스 아이콘 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">디자인 ❯ 색 ❯ 클래스 또는 직업 아이콘 세트 11종 추가</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] 디자인 ❯ 고급 설정 ❯ 글자 기울임</div></div><div name="row"><div class="c"></div><div class="m">데이터 ❯ 구성 ❯ <a href="http://www.inven.co.kr/board/ff14/4953/1982" target="_blank">DPS/HPS 데이터 통합</a></div></div><div name="row"><div class="b"></div><div class="m">디자인 ❯ 모서리 ❯ 반경이 0일 때 표시 오류</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] 관리 도구 ❯ 커스텀 UI 데이터 ❯ 공유, 적용</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] 디자인 ❯ 고급 설정 ❯ 레이드 모드 (인원수 설정)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] 소환사, 기공사, 학자 MaxHit, MaxHeal 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 디자인 ❯ 셀 ❯ 헤더 정렬</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 디자인 ❯ 색/불투명도/크기 ❯ 세로 구분선, 디자인 ❯ 셀 ❯ 헤더 정렬</div></div><div name="row"><div class="u"></div><div class="m">데이터 ❯ Damage/Healed 데이터 유형</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] 데이터 ❯ MaxHit, MaxHeal 구분 기호</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] 디자인 ❯ 고급 설정 ❯ 그래프 ❯ DPS/HPS 그래프 정렬</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] Streamlabs OBS 프로그램 사용 가능</div></div><div name="row"><div class="b"></div><div class="m">데이터 ❯ 구성, 순서, 이름, 미리보기 화면 등</div></div>',
             EN: '<div name="row"><div class="u"></div><div class="m">[Inven/Proark] Data ❯ Unit of MaxHit, MaxHeal (Available the ACT below ver.3.3.2.256)</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] Error of Combine Pets with Owner (SMN) in China Server</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] Added Deutsch data</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] Responses to ACT 3.3.2.257_180825 Updata ❯ Force the MaxHit/Heal unit added</div></div><div name="row"><div class="b"></div><div class="m">Display Error of the Backup</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] Design ❯ Advanced ❯ Type of Text Border</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] Design ❯ Color ❯ Text Border</div></div><div name="row"><div class="b"></div><div class="m">Display Error of the Class Icons</div></div><div name="row"><div class="u"></div><div class="m">Design ❯ Color ❯ Added the 11 Sets of Class or Job Icon</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] Design ❯ Advanced ❯ Italic</div></div><div name="row"><div class="c"></div><div class="m">Data ❯ Data Formatting ❯ Integrated the DPS and HPS Data</div></div><div name="row"><div class="b"></div><div class="m">Design ❯ Corner ❯ Error when Radius value is 0</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] Management Tools ❯ Custom UI Data ❯ Share, Apply</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] Design ❯ Advanced ❯ Raid Mode (The number of combatants option)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] SMN, MCH, SCH MaxHit, MaxHeal Errors</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] Design ❯ Cell ❯ Header Align</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] Design ❯ Color/Opacity/Size ❯ Vertically Division Lines, Design ❯ Cell ❯ Header Align</div></div><div name="row"><div class="u"></div><div class="m">Data ❯ Data Type of Damage/Healed</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] Data ❯ Separator of MaxHit, MaxHeal</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] Design ❯ Advanced ❯ Graph ❯ DPS/HPS Graph Align</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] Available Streamlabs OBS</div></div><div name="row"><div class="b"></div><div class="m">Data ❯ Formatting, Order, Name, Preview, etc.</div></div>',
-            CN: '<div name="row"><div class="u"></div><div class="m">[Inven/Proark] 数据 > 最大伤害、最大治疗量单位(适用于ACT3.3.2.256以下版本)</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] 中国服务器召唤兽和主人(召唤师)数据合并错误</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] 增加德语数据</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] 对应ACT3.3.2.257_180825升级 > 锁定最大伤害/治疗量</div></div><div name="row"><div class="b"></div><div class="m">备份功能显示错误</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 设计 > 高级 > 文本描边类型</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 设计 > 颜色 > 文本描边</div></div><div name="row"><div class="b"></div><div class="m">职业图标显示错误</div></div><div name="row"><div class="u"></div><div class="m">设计 > 颜色 > 增加11组职业和特职图标</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] 设计 ❯ 高级 ❯ 斜体</div></div><div name="row"><div class="c"></div><div class="m">数据 ❯ 数据格式 ❯ 整合DPS和HPS数据</div></div><div name="row"><div class="b"></div><div class="m">设计 ❯ 边角 ❯ 半径为0时报错</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] 管理工具 > 自定义UI数据 > 共享、应用</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] 设计 > 高级 > Raid模式(战斗员个数选项)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] 召唤师、机工士、学者最大伤害/最大治疗量错误</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 设计 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 设计 > 颜色/透明度/尺寸 > 垂直分割线、设置 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">数据 > 伤害/治疗数据类型</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] Data ❯ 最大伤害/最大治疗量数值分隔符</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] 设计 > 高级 > 图表 > DPS/HPS图表对齐</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] 支持Streamlabs OBS</div></div><div name="row"><div class="b"></div><div class="m">数据 > 排版、顺序、名称、预览等</div></div>'
+            CN: '<div name="row"><div class="u"></div><div class="m">[Inven/Proark] 数据 > 最大伤害、最大治疗量单位(适用于ACT3.3.2.256以下版本)</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] 中国服务器召唤兽和主人(召唤师)数据合并错误</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] 增加德语数据</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] 对应ACT3.3.2.257_180825升级 > 锁定最大伤害/治疗量</div></div><div name="row"><div class="b"></div><div class="m">备份功能显示错误</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 布局 > 高级 > 文本描边类型</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 布局 > 颜色 > 文本描边</div></div><div name="row"><div class="b"></div><div class="m">职业图标显示错误</div></div><div name="row"><div class="u"></div><div class="m">布局 > 颜色 > 增加11组职业和特职图标</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] 布局 > 高级 > 斜体</div></div><div name="row"><div class="c"></div><div class="m">数据 > 数据格式 > 整合DPS和HPS数据</div></div><div name="row"><div class="b"></div><div class="m">布局 > 边角 > 半径为0时报错</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] 管理工具 > 自定义UI数据 > 共享、应用</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] 布局 > 高级 > Raid模式(战斗员个数选项)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] 召唤师、机工士、学者最大伤害/最大治疗量错误</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 布局 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 布局 > 颜色/透明度/尺寸 > 垂直分割线、设置 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">数据 > 伤害/治疗数据类型</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] Data > 最大伤害/最大治疗量数值分隔符</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] 布局 > 高级 > 图表 > DPS/HPS图表对齐</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] 支持Streamlabs OBS</div></div><div name="row"><div class="b"></div><div class="m">数据 > 排版、顺序、名称、预览等</div></div>'
         }
     },
     msg: {
@@ -170,7 +170,7 @@ l = {
                         JP: "Raidモード<font class='ex'>　❙ デザイン ❯ 高級の設定</font>",
                         EN: "Raid Mode<font class='ex'>　❙ Design ❯ Advanced</font>",
                         DE: "Raid Modus<font class='ex'>　❙ Design ❯ Experteneinstellungen</font>",
-                        CN: "Raid模式<font class='ex'>　❙ 设计 ❯ 高级选项</font>",
+                        CN: "Raid模式<font class='ex'>　❙ 布局 > 高级选项</font>",
                     },
                     e: "dr_checkbox"
                 },
@@ -349,7 +349,7 @@ l = {
                 JP: "デザイン",
                 EN: "Design",
                 DE: "Design",
-                CN: "设计",
+                CN: "布局",
             },
             i: "brush",
             e: "li_link",
@@ -1081,7 +1081,7 @@ l = {
                 JP: "時間<font class='ex'>　❙ 基本値 ❯ DS-Digital</font>",
                 EN: "Time<font class='ex'>　❙ Default ❯ DS-Digital</font>",
                 DE: "Zeit<font class='ex'>　❙ Voreinstellung ❯ DS-Digital</font>",
-                CN: "时间<font class='ex'>　❙ 默认值 ❯ DS-Digital</font>",
+                CN: "时间<font class='ex'>　❙ 默认值 > DS-Digital</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -1093,7 +1093,7 @@ l = {
                 JP: "ターゲット<font class='ex'>　❙ 基本値 ❯ Segoe UI</font>",
                 EN: "Target<font class='ex'>　❙ Default ❯ Segoe UI</font>",
                 DE: "Ziel<font class='ex'>　❙ Voreinstellung ❯ Segoe UI</font>",
-                CN: "目标<font class='ex'>　❙ 默认值 ❯ 微软雅黑</font>",
+                CN: "目标<font class='ex'>　❙ 默认值 > 微软雅黑</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -1105,7 +1105,7 @@ l = {
                 JP: "RD、RHなど<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
                 EN: "RD, RH, etc.<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
                 DE: "RD, RH, usw.<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
-                CN: "RD，RH等<font class='ex'>　❙ 默认值 ❯ Georgia</font>",
+                CN: "RD，RH等<font class='ex'>　❙ 默认值 > Georgia</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -1117,7 +1117,7 @@ l = {
                 JP: "テーブルのヘッダー<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
                 EN: "Table Header<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
                 DE: "Tabellenkopf<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
-                CN: "表头<font class='ex'>　❙ 默认值 ❯ Georgia</font>",
+                CN: "表头<font class='ex'>　❙ 默认值 > Georgia</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -1129,7 +1129,7 @@ l = {
                 JP: "テーブルのボディ<font class='ex'>　❙ 基本値 ❯ Segoe UI</font>",
                 EN: "Table Body<font class='ex'>　❙ Default ❯ Segoe UI</font>",
                 DE: "Tabellenkörper<font class='ex'>　❙ Voreinstellung ❯ Segoe UI</font>",
-                CN: "表体<font class='ex'>　❙ 默认值 ❯ 微软雅黑</font>",
+                CN: "表体<font class='ex'>　❙ 默认值 > 微软雅黑</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -3000,7 +3000,7 @@ l = {
                         JP: "テーブル順序<font class='ex'>　❙ サイズ ❯ テーブル行間</font>",
                         EN: "Order of Table<font class='ex'>　❙ Size ❯ Spacing of Table</font>",
                         DE: "Reihenfolge der Tabellen<font class='ex'>　❙ Size ❯ Spacing of Table</font>",
-                        CN: "表顺序<font class='ex'>　❙ 大小 ❯ 表间距</font>",
+                        CN: "表顺序<font class='ex'>　❙ 大小 > 表间距</font>",
                     },
                     m: {
                         1: {
@@ -3008,14 +3008,14 @@ l = {
                             JP: "DPSテーブル ❯ HPSテーブル",
                             EN: "DPS Table ❯ HPS Table",
                             DE: "DPS Tabellen ❯ HPS Tabellen",
-                            CN: "DPS 表 ❯ HPS 表",
+                            CN: "DPS 表 > HPS 表",
                         },
                         2: {
                             KR: "HPS 테이블 ❯ DPS 테이블",
                             JP: "HPSテーブル ❯ DPSテーブル",
                             EN: "HPS Table ❯ DPS Table",
                             DE: "HPS Tabellen ❯ DPS Tabellen",
-                            CN: "HPS 表 ❯ DPS 表",
+                            CN: "HPS 表 > DPS 表",
                         }
                     },
                     e: "li_radio",
