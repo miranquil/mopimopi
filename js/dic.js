@@ -4,7 +4,7 @@ d = {
         JP: "フルスクリーンモード<font class='ex'>　❙ モバイル</font>",
         EN: "Fullscreen Mode<font class='ex'>　❙ Mobile</font>",
         DE: "Vollbild Modus<font class='ex'>　❙ Handy</font>",
-        CN: "全屏模式<font class='ex'>　❙ 移动端</font>",
+        CN: "全屏模式<font class='ex'>　❙ 移动设备</font>",
     },
     More: {
         KR: '더보기',
@@ -179,7 +179,7 @@ d = {
         JP: '<br>キーボード入力の場合は,<br>ACT > Plugins > ACTWebSocket > Open Manager > Preferences ❯ <font class="ac"><b>No Focus</b>のチェークを解除</font>してください。<br><br><font class="ac">❖ 携帯環境では該当オプションは使用できません。<br>❖ フォントの名前だけ入力してください。(フォントスタイル除外)<br>❖ フォントのファイルが損傷されている、もしくは名前が間違っている場合は基本フォントが適用されます。</font>',
         EN: '<br>When you type directly,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">UNCHEKED <b>No Focus</b></font><br><br><font class="ac">❖ This feature isn\'t supported in mobile environment.<br>❖ You only must be entered the font name. (EXCEPT font style)<br>❖ If the font file is corrupted or font name is entered incorrectly, it will be applied by default.</font>',
         DE: '<br>Wenn du direkt schreiben möchtest, gehe wie folgt vor:,<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ <font class="ac">DEAKTIVIERE <b>No Focus</b></font><br><br><font class="ac">❖ Dieses Feature wird nicht in der mobilen Umgebung unterstützt.<br>❖ Nur den Schriftart-Namen eintragen. (AUSNAHME: Schriftstil)<br>❖ Falls die Datei der Schriftart beschädigt oder der Name falsch geschrieben ist, wird die Standard-Schriftart angewendet.</font>',
-        CN: '<br>若要直接输入，在<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ 取消勾选 <font class="ac"><b>No Focus</b>。</font><br><br><font class="ac">❖ 移动端不支持此功能。<br>❖ 只需输入字体名称。 (除字体样式外)<br>❖ 若字体文件损坏或不存在，则使用默认字体。</font>',
+        CN: '<br>若要直接输入，在<br>ACT ❯ Plugins ❯ ACTWebSocket ❯ Open Manager ❯ Preferences ❯ 取消勾选 <font class="ac"><b>No Focus</b>。</font><br><br><font class="ac">❖ 移动设备不支持此功能。<br>❖ 只需输入字体名称。 (除字体样式外)<br>❖ 若字体文件损坏或不存在，则使用默认字体。</font>',
     },
     input_font:{        
         m: {

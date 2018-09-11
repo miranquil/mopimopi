@@ -1,4 +1,3 @@
-//미리보기 데이터 
 var xhr = new XMLHttpRequest();
 xhr.onload = function () {
     if (xhr.status === 200) {
@@ -383,7 +382,7 @@ function Person(e, p) {
         this["DPS-k"] = Math.floor(this.dps / 1000);
         this["HPS-k"] = Math.floor(this.hps / 1000);
         for (var i in this) {
-            if (this[i] == "∞")
+            if (this[i] == "?닞")
                 this[i] = 0
         }
     }
@@ -410,6 +409,7 @@ function Person(e, p) {
             this.isLower = !0;
             break;
         case "PUG":
+        case "PGL":
             this.Class = "MNK";
             this.isLower = !0;
             break;
