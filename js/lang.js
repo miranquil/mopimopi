@@ -3455,7 +3455,7 @@ l = {
                 JP: "壁紙イメージ繰り返し",
                 EN: "Repeat of Background Image",
                 DE: "Hintergrundbild wiederholen",
-                CN: "重置背景图片",
+                CN: "反转背景图片",
             },
             m: {
                 'no-repeat': d.noUse,
@@ -3464,11 +3464,11 @@ l = {
                     JP: "横軸",
                     EN: "Horizontal Axis",
                     DE: "Horizontale Achse",
-                    CN: "横轴",
+                    CN: "水平",
                 },
                 'repeat-y': {
                     KR: "세로축",
-                    JP: "縦軸",
+                    JP: "垂直",
                     EN: "Vertically Axis",
                     DE: "Vertikale Achse",
                     CN: "纵轴",
