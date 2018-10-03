@@ -3471,7 +3471,7 @@ l = {
                     JP: "垂直",
                     EN: "Vertically Axis",
                     DE: "Vertikale Achse",
-                    CN: "纵轴",
+                    CN: "垂直",
                 },
                 'repeat': {
                     KR: "바둑판식 배열",
