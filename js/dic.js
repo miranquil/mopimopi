@@ -616,6 +616,18 @@ d = {
         e: "li_2line_checkbox",
         ul: 0
     },
+    percentile: {
+        tt: "Pct",
+        m: {
+            KR: "The current percentile of the combatant.",
+            JP: "The current percentile of the combatant.",
+            EN: "The current percentile of the combatant.",
+            DE: "The current percentile of the combatant.",
+            CN: "The current percentile of the combatant.",
+        },
+        e: "li_2line_checkbox",
+        ul: 0
+    },
     mergedLast10DPS: {
         tt: "Last10",
         m: {
