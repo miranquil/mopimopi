@@ -495,7 +495,7 @@ Mopi2 = {
             HPS: 0
         },
         Percentile: {
-            tt: "Pct",
+            tt: "Percentile",
             DPS: 1,
             HPS: 0
         }
