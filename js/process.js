@@ -393,7 +393,6 @@ function addData(colName, a, p) {
         case 'Rep.HP':
         case 'Rep.MP':
         case 'Death':
-        case 'Percentile':
             if (a >= 1000000 && init.q.unit == 1) return addComma(a, 1000000, init.q.ns * init.q.dmgType)
             else if (a >= 10000 && init.q.unit == 1) return addComma(a, 1000, init.q.ns * init.q.dmgType)
             else return addComma(a);

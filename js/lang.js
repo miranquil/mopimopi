@@ -391,11 +391,11 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.3.0.180910',
-                JP: 'MopiMopi ver.3.0.180910',
-                EN: 'MopiMopi ver.3.0.180910',
-                DE: 'MopiMopi ver.3.0.180910',
-                CN: "MopiMopi ver.3.0.180910",
+                KR: 'MopiMopi ver.2.9.180902',
+                JP: 'MopiMopi ver.2.9.180902',
+                EN: 'MopiMopi ver.2.9.180902',
+                DE: 'MopiMopi ver.2.9.180902',
+                CN: "MopiMopi ver.2.9.180902",
             },
             i: "new_releases",
             e: "li_2line",
@@ -844,8 +844,7 @@ l = {
                 ParryPct: d.ParryPct,
                 BlockPct: d.BlockPct,
                 mergedCures: d.mergedCures,
-                deaths: d.deaths,
-                Percentile: d.Percentile
+                deaths: d.deaths
             }
         },
         tab_HPS: {
