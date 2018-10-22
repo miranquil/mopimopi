@@ -612,6 +612,18 @@ d = {
             EN: "The damage total of the combatant divided by the duration of the encounter.<br><span class='ac'> = This is more commonly used than P.DPS</span>",
             DE: "Gesamtschaden dividiert durch die Kampfzeit.<br><span class='ac'> = Diese Option ist weiter verbreitet als P.DPS.</span>",
             CN: "每秒伤害<br><span class='ac'> = 战斗总伤害除以团队攻击时间</span>",
+            },
+            e: "li_2line_checkbox",
+                ul: 0
+            },
+            percentile: {
+                    tt: "Pct",
+                    m: {
+                        KR: "The current percentile of the combatant.",
+                        JP: "The current percentile of the combatant.",
+                        EN: "The current percentile of the combatant.",
+                        DE: "The current percentile of the combatant.",
+                        CN: "当前输出占logs比重。",
         },
         e: "li_2line_checkbox",
         ul: 0
