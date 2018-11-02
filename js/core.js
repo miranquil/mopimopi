@@ -382,7 +382,7 @@ function Person(e, p) {
         this["DPS-k"] = Math.floor(this.dps / 1000);
         this["HPS-k"] = Math.floor(this.hps / 1000);
         for (var i in this) {
-            if (this[i] == "∞")
+            if (this[i] == "?닞")
                 this[i] = 0
         }
     }
