@@ -408,8 +408,8 @@ function Person(e, p) {
             this.Class = "WAR";
             this.isLower = !0;
             break;
-        case "PUG": 
-        case "PGL": 
+        case "PUG":
+        case "PGL":
             this.Class = "MNK";
             this.isLower = !0;
             break;

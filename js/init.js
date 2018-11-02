@@ -112,7 +112,7 @@ Mopi2 = {
         tooltips: 1,
         toast: 1, 
 
-        Lang: "KR",     
+        Lang: "CN",     
 
         fTime: 'DS-Digital',
         fTarget: 'Segoe UI',
@@ -495,4 +495,11 @@ Mopi2 = {
             HPS: 0
         }
     }
+}
+
+if (Mopi2.q.Lang === 'CN') {
+    Mopi2.q.fTarget = '微软雅黑'
+    Mopi2.q.fRPS = 'Georgia'
+    Mopi2.q.fHd = 'Georgia'
+    Mopi2.q.fBody = '微软雅黑'
 }

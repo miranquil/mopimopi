@@ -48,7 +48,7 @@ function initOverlay(val) {
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
         $('.btn_wrap').show()
         for (var i in l.Notice) {
-            if (lang == "KR")
+            if (lang == "KR" || lang == "CN")
                 $('#' + i).html(l.Notice[i][lang])
             else
                 $('#' + i).html(l.Notice[i].EN)
@@ -1149,7 +1149,7 @@ function ui() {
         style = 'normal'
     $('[name=rps]').css({
         color: oHexColor(init.Color.rps, parseFloat(init.Range.rps / 100)),
-        'font-family': "'" + init.q.fRPS + "', 'Roboto Condensed', 'Segoe UI', 'sans-serif'",
+        'font-family': "'" + init.q.fRPS + "', 'Roboto Condensed', '更纱黑体 SC', '微软雅黑', 'Segoe UI', 'sans-serif'",
         'font-size': parseFloat(init.Range.sizeRPS / 10) + 'rem',
         'font-style': style
     })
@@ -1268,7 +1268,7 @@ function ui() {
     $('.tableHeader td').css({
         background: oHexColor(init.Color.tableHd, parseFloat(init.Range.tableHd / 100)),
         color: oHexColor(init.Color.tableHdText, parseFloat(init.Range.tableHdText / 100)),
-        'font-family': "'" + init.q.fHd + "', 'Roboto Condensed', 'sans-serif'",
+        'font-family': "'" + init.q.fHd + "', 'Roboto Condensed','更纱黑体 SC', '微软雅黑', 'sans-serif'",
         height: parseFloat(init.Range.sizeHd / 10) + 'rem',
         'font-size': parseFloat(init.Range.sizeHdText / 10) + 'rem'
     })
