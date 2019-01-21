@@ -1,7 +1,8 @@
 Mopi2 = {
+
     q: {
         keyboard: 1,
-        swap: 0,     
+        swap: 0,
         hideName: 0,
         pets: 1,
         dpsType: 0,
@@ -16,7 +17,6 @@ Mopi2 = {
         mhh: 2,
         mhh_unit:"-",
         abb: 1,
-
         DPS_T: 1,
         DPS_H: 1,
         DPS_D: 1,
@@ -27,82 +27,69 @@ Mopi2 = {
         HPS_D: 0,
         HPS_M: 0,
         HPS_C: 1,
-
         unit: 1,
         max_unit:0,
         preview: 0,
         preview24: 0,
-        palette: "job",   
+        palette: "job",
         myColorUse: 0,
-
         edgeType: 'solid',
-
         rd_navTL: 1,
         rd_navTR: 1,
         rd_navBL: 1,
         rd_navBR: 1,
-
         rd_tableTL: 1,
         rd_tableTR: 1,
         rd_tableBL: 1,
         rd_tableBR: 1,
-
         applyScope: 3,
-
         rd_graphTL: 1,
         rd_graphTR: 1,
         rd_graphBL: 1,
         rd_graphBR: 1,
-
         pattern: "cross",
         iconSet:"glow",
-
         btn_Capture: 0,
         btn_History: 0,
         btn_RequestEnd: 0,
-
         act: 2,
         act_rd: 1,
         act_rh: 1,
         act_rank: 1,
         act_max: 1,
-        
         time_italic:0,
         target_italic:0,
         rps_italic:0,
         header_italic:0,
         body_italic:0,
-        
         viewDPS: 1,
         viewHPS: 1,
         view24: 1,
-        view24_Number: 10, 
+        view24_Number: 10,
         tableOrder: 1,
         boldYOU: 1,
         boldOther: 0,
-        borderTextType:"shadow", 
-
+        borderTextType:"shadow",
         ani: 1,
         gradient: 0,
         direction: "top",
-
         bar_pet: 1,
         bar_ds: 1,
         bar_oh: 1,
-        bar_position: 'right',   
-        bar_position_DPS: 'left',   
-        
-        alignHeaderCell0:'center',     
-        alignHeaderCell1:'left',     
-        alignHeaderCell2:'center',  
-        alignHeaderCell3:'center',     
-        alignHeaderCell4:'left',   
-        alignHeaderCell5:'center',     
-        alignHeaderCell6:'center',     
+        bar_position: 'right',
+        bar_position_DPS: 'left',
+
+        alignHeaderCell0:'center',
+        alignHeaderCell1:'left',
+        alignHeaderCell2:'center',
+        alignHeaderCell3:'center',
+        alignHeaderCell4:'left',
+        alignHeaderCell5:'center',
+        alignHeaderCell6:'center',
         alignCell0: 'center',
         alignCell1: 'left',
         alignCell2: 'center',
-        alignCell3: 'center', 
+        alignCell3: 'center',
         alignCell4: 'left',
         alignCell5: 'center',
         alignCell6: 'center',
@@ -110,25 +97,22 @@ Mopi2 = {
         arrow: 1,
         autoHide: 1,
         tooltips: 1,
-        toast: 1, 
+        toast: 1,
 
-        Lang: "CN",     
-
+        Lang: "CN",
         fTime: 'DS-Digital',
         fTarget: 'Segoe UI',
         fRPS: 'Roboto Condensed',
         fHd: 'Roboto Condensed',
         fBody: 'Segoe UI',
-
         resolution: '62.5%',
-
         overlayBg: 0,
         overlayBgImg: '',
-        overlayBgSize: 'contain', 
+        overlayBgSize: 'contain',
         overlayBgRepeat: 'no-repeat',
-
         backupDate: 'No Data',
     },
+
     Color: {
         accent: "03A9F4",
         navBg: "212121",
@@ -136,19 +120,21 @@ Mopi2 = {
         target: "FFFFFF",
         rps: "BDBDBD",
         pattern: "1A1A1A",
-
         tableHd: "161616",
         tableHdText: "BDBDBD",
         tableBg: "000000",
-        tableYOU: "FFFFFF",          
+        tableYOU: "FFFFFF",
         tableOther: "FFFFFF",
+        view24TableYOU: "FFFFFF",
+        view24TableOther: "FFFFFF",
+        view24BgYOU: "03A9F4",
+        view24BgOther: "000000",
         tableLine: "FFFFFF",
-        tableLineVer: "FFFFFF", 
+        tableLineVer: "FFFFFF",
         tableExYOU: "BDBDBD",
         tableExOther: "BDBDBD",
         tableBorderYOU:"000000",
         tableBorderOther:"000000",
-        
         myColor: "03A9F4",
         PLD: "7B9AA2",
         WAR: "A91A16",
@@ -189,6 +175,7 @@ Mopi2 = {
         YOU: "607D8B",
         Other: "263238"
     },
+
     Range: {
         navTime: 100,
         navIcon: 100,
@@ -197,24 +184,21 @@ Mopi2 = {
         target: 100,
         rps: 100,
         pattern: 100,
-
         tableHd: 100,
         tableHdText: 100,
         tableBg: 50,
         tableYOU: 100,
-
-        view24BgOther: 50,
-        view24BgYOU: 50, 
-
         tableOther: 100,
-        tableLine: 10, 
+        tableLine: 10,
         tableLineVer: 10,
-
+        view24BgOther: 50,
+        view24BgYOU: 50,
+        view24TableYOU: 100,
+        view24TableOther: 100,
         bar: 75,
         pet: 50,
         ds: 75,
-        oh: 75, 
-
+        oh: 75,
         sizeNav: 42,
         sizeEdge: 0,
         sizeRadius: 0,
@@ -222,9 +206,8 @@ Mopi2 = {
         sizeTarget: 12,
         sizeRPS: 12,
         sizeGap: 1,
-        sizeIcon: 24, 
+        sizeIcon: 24,
         sizePattern: 11,
-
         sizeHd: 13,
         sizeHdText: 11,
         sizeRadiusTable: 0,
@@ -233,27 +216,28 @@ Mopi2 = {
         sizeBodyIcon: 20,
         sizeLine: 1,
         sizeLineVer:0,
-
+        size24TableSlice:5,
+        size24TableHeight:35,
+        size24TableIdxWd:3,
+        size24BodyIcon: 20,
+        size24BodyNameText: 12,
+        size24BodyDataText: 12,
         sizeGraph_bar: 21,
         sizeGraph_pet: 21,
         sizeGraph_ds: 21,
         sizeGraph_oh: 21,
         sizeRadiusGraph: 0,
-
         sizeDPSTable: 9,
-        sizeHPSTable: 3, 
-
+        sizeHPSTable: 3,
         sizeHdGap: 0,
         sizeDPSGap: 0,
         sizeHPSGap: 20,
-
         sizeCell0: 25,
         sizeCell2: 50,
         sizeCell3: 50,
         sizeCell4: 100,
         sizeCell5: 40,
         sizeCell6: 55,
-
         sizePdCell0: 0,
         sizePdCell1: 0,
         sizePdCell2: 0,
@@ -261,9 +245,9 @@ Mopi2 = {
         sizePdCell4: 2,
         sizePdCell5: 0,
         sizePdCell6: 0,
-
         autoHideTime: 3,
     },
+
     Alias: {
         "The Forbidden Chakra": "Forb.Chakra",
         "Spineshatter Dive": "Spine.Dive",
@@ -274,10 +258,12 @@ Mopi2 = {
         "Enchanted Zwerchhau": "E.Zwerch",
         "Refulgent Arrow": "Ref.Arrow"
     },
+
     Order: {
         DPS: ["Class", "name", "encdps", "damage%", "mergedDamage", "mergedSwings", "DirectHit%", "crithit%", "CritDirectHit%", "maxhit", "deaths"],
         HPS: ["Class", "name", "enchps", "healed%", "mergedHealed", "mergedEffHealed", "mergedDamageShield", "mergedOverHeal", "overHeal%"]
     },
+
     ColData: {
         Class: {
             tt: "Job",
