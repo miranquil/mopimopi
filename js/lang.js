@@ -310,11 +310,11 @@ l = {
                     CN: "日本語<font class='ex'>　❙ by Korea [Moogle] 오후의홍차, 이카루가</font>"
                 },
                 CN: {
-                    KR: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 依诺莉</font>",
-                    JP: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 依诺莉</font>",
-                    EN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 依诺莉</font>",
-                    DE: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 依诺莉</font>",
-                    CN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 依诺莉</font>",
+                    KR: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
+                    JP: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
+                    EN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
+                    DE: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
+                    CN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
                 },
                 EN: {
                     KR: "English",
