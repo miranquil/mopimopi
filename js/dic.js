@@ -497,7 +497,7 @@ d = {
         JP: "ペット<font class='ex'>　❙ ペットのデータを合算する 'ON'</font>",
         EN: "Pet<font class='ex'>　❙ Combine Pets with Owner 'ON'</font>",
         DE: "Begleiter<font class='ex'>　❙ Charakter und Begleiter zusammenfassen 'ON'</font>",
-        CN: "召唤物<font class='ex'>　❙ 召唤物与自身数据合并 'ON'</font>",
+        CN: "召唤物<font class='ex'>　❙ 合并自身与召唤物数据 'ON'</font>",
     },
     graph_shield: {
         KR: "D.Shield",

@@ -452,7 +452,7 @@ l = {
                 JP: "ペットのデータを合算する",
                 EN: "Combine Pets with Owner",
                 DE: "Charakter und Begleiter zusammenfassen",
-                CN: "合并召唤物和主人数据",
+                CN: "合并自身与召唤物数据",
             },
             i: "merge_type",
             e: "li_checkbox",
