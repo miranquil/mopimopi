@@ -8,7 +8,7 @@ l = {
         tip: {
             KR: '[OFFICAIL] MopiMopi ver.3.71.190710 / 해루@모그리',
             EN: '[OFFICAIL] MopiMopi ver.3.71.190710 / HAERU@Moogle (KR)',
-            EN: '[OFFICAIL] MopiMopi ver.3.71.190710 / HAERU@Moogle (KR)',
+            CN: '[OFFICAIL] MopiMopi ver.3.71.190710 / HAERU@Moogle (KR)'
         },
         update: {
             KR: '<div name="row"><div class="c">19/07/10</div><div class="m">시작 페이지 레이아웃 변경</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[인벤/Stellalight] 5.0 신규 소환수 데이터 추가</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] 이니셜 표시 오류 수정</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[노래하는혼@모그리] 5.0 patch Gunbreaker/Dancer 아이콘 세트 추가</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ 모피모피 벌써 2주년! 항상 감사드립니다! ★★★</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[이솜@모그리] 4.5 patch 청마도사 아이콘 세트 추가</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 클릭 시 캐릭터 이름 숨김 오류 수정</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 크기 조절 오류 수정</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] 레이드 모드 커스터마이징 옵션 추가</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2019년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
@@ -41,7 +41,7 @@ l = {
                 JP: "ACTのスクショトはACTフォルダの中のScreenshotフォルダで確認できます。",
                 EN: "The capture file can be found in the Screenshot folder of your ACT directory.",
                 DE: "Du findest den aufgenommenen Screenshot in deinem ACT-Ordner unter ScreenShot.",
-                CN: "截图可在ACT目录下的Screenshot目录找到。",
+                CN: "截图可在ACT目录下的Screenshot文件夹找到。",
             }
         },
         submit: {
@@ -59,7 +59,7 @@ l = {
                 JP: "登録しました。",
                 EN: "Registered.",
                 DE: "Registriert.",
-                CN: "已注册。",
+                CN: "已存入。",
             }
         },
         hiddenTable: {
@@ -310,11 +310,11 @@ l = {
                     CN: "日本語<font class='ex'>　❙ by Korea [Moogle] 오후의홍차, 이카루가</font>"
                 },
                 CN: {
-                    KR: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
-                    JP: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
-                    EN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
-                    DE: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
-                    CN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 月夜之诗</font>",
+                    KR: "简体中文<font class='ex'>　❙ by Gaia [Ifrit] Shion Wisteria</font>",
+                    JP: "简体中文<font class='ex'>　❙ by Gaia [Ifrit] Shion Wisteria</font>",
+                    EN: "简体中文<font class='ex'>　❙ by Gaia [Ifrit] Shion Wisteria</font>",
+                    DE: "简体中文<font class='ex'>　❙ by Gaia [Ifrit] Shion Wisteria</font>",
+                    CN: "简体中文<font class='ex'>　❙ by Gaia [Ifrit] Shion Wisteria</font>",
                 },
                 EN: {
                     KR: "English",
