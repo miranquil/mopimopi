@@ -1,19 +1,19 @@
 l = {
     Notice: {
         strong: {
-            KR: '<b style="color:#ffbb00">모피모피 2<br>놀라운 커스터마이징을 경험하세요!</b><br>문의: 모그리/해루<br><br>모바일과 방송(OBS Studio, XSplit 등) 유저는<br><a href="http://ffxivhaeru.blog.me/221324327150" target="_blank">ACTWebSocket 1.3.3.9 버전 이상</a>을 설치해야 합니다.<br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br><br>Please select <b>your language :</b><br><a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>',
-            EN: '<b style="color:#ffbb00">MopiMopi 2<br>Experience the Incredible Customizing!</b><br><br>Mobile and Broadcast(OBS Studio, XSplit, etc.) users<br>should install the <a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9 or higher</a> version.<br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br><br>Please select <b>your language :</b><br><a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>',
-            CN: '<b style="color:#ffbb00">MopiMopi 2<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio、XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本<br>移动设备环境下推荐使用<b>Chrome或Safari</b>应用。<br><br>请选择<b>您所用的语言：</b><br><a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
+            KR: '<b style="color:#ffea00">모피모피<br>놀라운 커스터마이징을 경험하세요!</b><br><br>모바일과 방송(OBS Studio, XSplit 등) 유저는<br><a href="http://ffxivhaeru.blog.me/221324327150" target="_blank">ACTWebSocket 1.3.3.9 버전 이상</a>을 설치해야 합니다.<br><br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br>PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.<br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>',
+            EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br>Mobile and Broadcast(OBS Studio, XSplit, etc.) users<br>should install the <a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9 or higher</a> version.<br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>',
+            CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio, XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本。<br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：<b>OverlayProc ❯ 务必勾选"AppRegion"</b>以限制拖放区域。<br><br>请选择<b>您使用的语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.',
-            EN: 'PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.',
-            CN: 'PC用户：<b>OverlayProc > 务必勾选 "AppRegion"</b> 以限制拖放区域。'
+            KR: '[OFFICAIL] MopiMopi ver.3.71.190710 / 해루@모그리',
+            EN: '[OFFICAIL] MopiMopi ver.3.71.190710 / HAERU@Moogle (KR)',
+            EN: '[OFFICAIL] MopiMopi ver.3.71.190710 / HAERU@Moogle (KR)',
         },
         update: {
-            KR: '<div name="row"><div class="b"></div><div class="m">[twitch/Armell] 이니셜 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[모그리/노래하는혼] 5.0 patch Gunbreaker/Dancer 아이콘 세트 추가</div></div><div name="row"><div class="u"></div><div class="m">[모그리/이솜] 4.5 patch 청마도사 아이콘 세트 추가</div></div><div name="row"><div class="u"></div><div class="m">[PATCH 4.5] 청마도사 데이터 추가</div></div><div name="row"><div class="b"></div><div class="m">레이드 모드 : 직업 아이콘 클릭 시 캐릭터 이름 숨김 오류 </div></div><div name="row"><div class="b"></div><div class="m">레이드 모드 : 직업 아이콘 크기 조절 오류</div></div><div name="row"><div class="u"></div><div class="m">[Gmail/Mark Megyeri] 디자인 ❯ 레이드 모드 (커스터마이징 옵션 추가)</div></div><div name="row"><div class="n"></div><div class="m">★★★ 2019년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div><div name="row"><div class="b"></div><div class="m">[인벤/컨하] 격투사 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[인벤/Proark] 데이터 ❯ MaxHit, MaxHeal 단위</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] 중국 서버 소환사 펫 합산 오류</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] 독일어 데이터 추가</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] ACT 3.3.2.257_180825 업데이트 대응 ❯ MaxHit/Heal 단위 강제 적용</div></div><div name="row"><div class="b"></div><div class="m">백업 No Data 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 디자인 ❯ 고급 설정 ❯ 글자 테두리 유형</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 디자인 ❯ 색 ❯ 글자 테두리</div></div><div name="row"><div class="b"></div><div class="m">클래스 아이콘 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">디자인 ❯ 색 ❯ 클래스 또는 직업 아이콘 세트 11종 추가</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] 디자인 ❯ 고급 설정 ❯ 글자 기울임</div></div><div name="row"><div class="c"></div><div class="m">데이터 ❯ 구성 ❯ <a href="http://www.inven.co.kr/board/ff14/4953/1982" target="_blank">DPS/HPS 데이터 통합</a></div></div><div name="row"><div class="b"></div><div class="m">디자인 ❯ 모서리 ❯ 반경이 0일 때 표시 오류</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] 관리 도구 ❯ 커스텀 UI 데이터 ❯ 공유, 적용</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] 디자인 ❯ 고급 설정 ❯ 레이드 모드 (인원수 설정)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] 소환사, 기공사, 학자 MaxHit, MaxHeal 표시 오류</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 디자인 ❯ 셀 ❯ 헤더 정렬</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 디자인 ❯ 색/불투명도/크기 ❯ 세로 구분선, 디자인 ❯ 셀 ❯ 헤더 정렬</div></div><div name="row"><div class="u"></div><div class="m">데이터 ❯ Damage/Healed 데이터 유형</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] 데이터 ❯ MaxHit, MaxHeal 구분 기호</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] 디자인 ❯ 고급 설정 ❯ 그래프 ❯ DPS/HPS 그래프 정렬</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] Streamlabs OBS 프로그램 사용 가능</div></div><div name="row"><div class="b"></div><div class="m">데이터 ❯ 구성, 순서, 이름, 미리보기 화면 등</div></div>',
-            EN: '<div name="row"><div class="b"></div><div class="m">[twitch/Armell] Display Error of Initial</div></div><div name="row"><div class="u"></div><div class="m">[KR/Moogle/노래하는혼] Added the icon sets of Gunbreaker/Dancer for 5.0 patch</div></div><div name="row"><div class="u"></div><div class="m">[KR/Moogle/이솜] Added the icon sets of Blue Mage for 4.5 patch</div></div><div name="row"><div class="u"></div><div class="m">[PATCH 4.5] Added the data of Blue Mage</div></div><div name="row"><div class="b"></div><div class="m">Raid Mode : Hidden Error of Character name (when click the job icon)</div></div><div name="row"><div class="b"></div><div class="m">Raid Mode : Resizing Error of Job icon</div></div><div name="row"><div class="u"></div><div class="m">[Gmail/Mark Megyeri] Design ❯ Raid Mode (Added customizing options, Sorry for late...T^T)</div></div><div name="row"><div class="n"></div><div class="m">★★★ 2/0/1/9! Best wishes for a Happy New Year! ★★★</div></div><div name="row"><div class="b"></div><div class="m">[Inven/컨하] Display Error of Pugilist</div></div><div name="row"><div class="u"></div><div class="m">[Inven/Proark] Data ❯ Unit of MaxHit, MaxHeal</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] Error of Combine Pets with Owner (SMN) in China Server</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] Added Deutsch data</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] Responses to ACT 3.3.2.257_180825 Updata ❯ Force the MaxHit/Heal unit added</div></div><div name="row"><div class="b"></div><div class="m">Display Error of the Backup</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] Design ❯ Advanced ❯ Type of Text Border</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] Design ❯ Color ❯ Text Border</div></div><div name="row"><div class="b"></div><div class="m">Display Error of the Class Icons</div></div><div name="row"><div class="u"></div><div class="m">Design ❯ Color ❯ Added the 11 Sets of Class or Job Icon</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] Design ❯ Advanced ❯ Italic</div></div><div name="row"><div class="c"></div><div class="m">Data ❯ Data Formatting ❯ Integrated the DPS and HPS Data</div></div><div name="row"><div class="b"></div><div class="m">Design ❯ Corner ❯ Error when Radius value is 0</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] Management Tools ❯ Custom UI Data ❯ Share, Apply</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] Design ❯ Advanced ❯ Raid Mode (The number of combatants option)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] SMN, MCH, SCH MaxHit, MaxHeal Errors</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] Design ❯ Cell ❯ Header Align</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] Design ❯ Color/Opacity/Size ❯ Vertically Division Lines, Design ❯ Cell ❯ Header Align</div></div><div name="row"><div class="u"></div><div class="m">Data ❯ Data Type of Damage/Healed</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] Data ❯ Separator of MaxHit, MaxHeal</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] Design ❯ Advanced ❯ Graph ❯ DPS/HPS Graph Align</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] Available Streamlabs OBS</div></div><div name="row"><div class="b"></div><div class="m">Data ❯ Formatting, Order, Name, Preview, etc.</div></div>',
-            CN: '<div name="row"><div class="b"></div><div class="m">[twitch/Armell] 初始化时的显示错误</div></div><div name="row"><div class="u"></div><div class="m">[KR/Moogle/노래하는혼] 增加 Gunbreaker/Dancer 图标组以备5.0更新</div></div><div name="row"><div class="u"></div><div class="m">[KR/Moogle/이솜] 增加青魔法师职业图标</div></div><div name="row"><div class="u"></div><div class="m">[PATCH 4.5] 增加青魔法师数据</div></div><div name="row"><div class="b"></div><div class="m">Raid模式：角色名称隐藏错误（点击职业图标时）</div></div><div name="row"><div class="b"></div><div class="m">Raid模式：调整职业图标错误</div></div><div name="row"><div class="u"></div><div class="m">[Gmail/Mark Megyeri] 布局 > Raid模式（增加自定义选项，抱歉这么晚…T^T）</div></div><div name="row"><div class="n"></div><div class="m">★★★ 2/0/1/9！诚祝诸位新年快乐！ ★★★</div></div><div name="row"><div class="b"></div><div class="m">[Inven/컨하] 格斗家的一项显示错误</div></div><div name="row"><div class="u"></div><div class="m">[Inven/Proark] 数据 > 最大伤害、最大治疗量单位(适用于ACT3.3.2.256以下版本)</div></div><div name="row"><div class="b"></div><div class="m">[China/紫水栈桥/Rapis] 中国服务器召唤兽和主人(召唤师)数据合并错误</div></div><div name="row"><div class="c"></div><div class="m">[Chaos/Phoenix/Shunittseru Tohka] 增加德语数据</div></div><div name="row"><div class="b"></div><div class="m">[Gmail/Kyle,endless] 对应ACT3.3.2.257_180825升级 > 锁定最大伤害/治疗量</div></div><div name="row"><div class="b"></div><div class="m">备份功能显示错误</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 布局 > 高级 > 文本描边类型</div></div><div name="row"><div class="u"></div><div class="m">[Reddit/qrtru] 布局 > 颜色 > 文本描边</div></div><div name="row"><div class="b"></div><div class="m">职业图标显示错误</div></div><div name="row"><div class="u"></div><div class="m">布局 > 颜色 > 增加11组职业和特职图标</div></div><div name="row"><div class="u"></div><div class="m">[Inven/컨하] 布局 > 高级 > 斜体</div></div><div name="row"><div class="c"></div><div class="m">数据 > 数据格式 > 整合DPS和HPS数据</div></div><div name="row"><div class="b"></div><div class="m">布局 > 边角 > 半径为0时报错</div></div><div name="row"><div class="b"></div><div class="m">[Inven/슈나난] 管理工具 > 自定义UI数据 > 共享、应用</div></div><div name="row"><div class="c"></div><div class="m">[Reddit/Shadyblink] 布局 > 高级 > Raid模式(战斗员个数选项)</div></div><div name="row"><div class="b"></div><div class="m">[Inven/버플레어] 召唤师、机工士、学者最大伤害/最大治疗量错误</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 布局 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">[Inven/엔쥬] 布局 > 颜色/透明度/尺寸 > 垂直分割线、设置 > 单元格 > 表头对齐</div></div><div name="row"><div class="u"></div><div class="m">数据 > 伤害/治疗数据类型</div></div><div name="row"><div class="u"></div><div class="m">[Inven/skotlex] Data > 最大伤害/最大治疗量数值分隔符</div></div><div name="row"><div class="c"></div><div class="m">[Inven/캐프리컨] 布局 > 高级 > 图表 > DPS/HPS图表对齐</div></div><div name="row"><div class="b"></div><div class="m">[Reddit/Jinzhuu] 支持Streamlabs OBS</div></div><div name="row"><div class="b"></div><div class="m">数据 > 内容、顺序、名称、预览等</div></div>'
+            KR: '<div name="row"><div class="c">19/07/10</div><div class="m">시작 페이지 레이아웃 변경</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[인벤/Stellalight] 5.0 신규 소환수 데이터 추가</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] 이니셜 표시 오류 수정</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[노래하는혼@모그리] 5.0 patch Gunbreaker/Dancer 아이콘 세트 추가</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ 모피모피 벌써 2주년! 항상 감사드립니다! ★★★</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[이솜@모그리] 4.5 patch 청마도사 아이콘 세트 추가</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 클릭 시 캐릭터 이름 숨김 오류 수정</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 크기 조절 오류 수정</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] 레이드 모드 커스터마이징 옵션 추가</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2019년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
+            EN: '<div name="row"><div class="c">19/07/10</div><div class="m">Changed a layout of the start page</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[Inven/Stellalight] Added data of the new 5.0 pets</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] Fixed display error of the initial name</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[KR/노래하는혼@모그리] Added icon sets of the Gunbreaker/Dancer (5.0 patch)</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[KR/이솜@모그리] Added icon sets of the Blue Mage (4.5 patch)</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ 2nd anniversary of MopiMopi! Thank you for using it! ★★★</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid Mode : Fixed a hidden error of character name when you click the job icon</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid Mode : Fixed a resizing error of job icon</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] Added customizing options of the raid mode</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2/0/1/9 Best wishes for a Happy New Year! ★★★</div></div>',
+            CN: '<div name="row"><div class="c">19/07/10</div><div class="m">更改起始页面布局</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[Inven/Stellalight] 增加5.0新召唤兽数据</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] 修复初始姓名问题</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[KR/노래하는혼@모그리] 添加了Gunbreaker/Dancer的职业图标（5.0更新）</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[KR/이솜@모그리] 添加了青魔法师的职业图标（4.5更新）</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ MopiMopi二周年！感谢您的使用！ ★★★</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid模式：修复点击职业图标时角色名称出错</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid模式：修复职业图标尺寸调整错误</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] 增加Raid模式的自定义选项</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2/0/1/9 诚祝诸位新年快乐！ ★★★</div></div>'
         }
     },
     msg: {
@@ -139,11 +139,11 @@ l = {
         main: {
             tt: {
                 target: {
-                    KR: '모피모피 2　',
-                    JP: 'モピモピ 2　',
-                    EN: 'MopiMopi 2　',
-                    DE: 'MopiMopi 2　',
-                    CN: "MopiMopi 2　",
+                    KR: '모피모피　',
+                    JP: 'モピモピ　',
+                    EN: 'MopiMopi　',
+                    DE: 'MopiMopi　',
+                    CN: "MopiMopi　",
                 },
                 rps: {
                     KR: '전투를 시작하세요.',
@@ -167,7 +167,7 @@ l = {
                 view24: {
                     tt: {
                         KR: "레이드 모드",
-                        JP: "Raidモード",
+                        JP: "レイドモード",
                         EN: "Raid Mode",
                         DE: "Raid Modus",
                         CN: "Raid模式",
@@ -391,11 +391,11 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi2 ver.3.5.190629',
-                JP: 'MopiMopi2 ver.3.5.190629',
-                EN: 'MopiMopi2 ver.3.5.190629',
-                DE: 'MopiMopi2 ver.3.5.190629',
-                CN: "MopiMopi2 ver.3.5.190629",
+                KR: 'MopiMopi ver.3.71.190710',
+                JP: 'MopiMopi ver.3.71.190710',
+                EN: 'MopiMopi ver.3.71.190710',
+                DE: 'MopiMopi ver.3.71.190710',
+                CN: "MopiMopi ver.3.71.190710",
             },
             i: "new_releases",
             e: "li_2line",
@@ -1093,7 +1093,7 @@ l = {
         raid:{
             tt: {
                 KR: "레이드 모드",
-                JP: "Raidモード",
+                JP: "レイドモード",
                 EN: "Raid Mode",
                 DE: "Raid Modus",
                 CN: "Raid模式",
@@ -1641,6 +1641,18 @@ l = {
                 i: "<img src='./images/icon/frame/RDM.png'/>",
                 e: "li_color",
                 ul: 0
+            },            
+            BLU: {
+                tt: {
+                    KR: "청마도사",
+                    JP: "青魔道士",
+                    EN: "Blue Mage",
+                    DE: "Blaumagier",
+                    CN: "靑魔法师",
+                },
+                i: "<img src='./images/icon/frame/BLU.png'/>",
+                e: "li_color",
+                ul: 0
             },
             pet: {
                 tt: d.graph_pet,
@@ -1659,9 +1671,9 @@ l = {
                 i: "<img src='./images/menu/Healer.png'/>",
                 e: "li_color",
                 ul: 0
-            },
-            LMB: d.LMB,
+            },            
             CBO: d.CBO,
+            LMB: d.LMB,
             CRP: {
                 tt: {
                     KR: "목수",
@@ -1835,8 +1847,8 @@ l = {
                 e: "li_color",
                 ul: 0
             },
-            LMB: d.LMB,
             CBO: d.CBO,
+            LMB: d.LMB,
             Crafter: {
                 tt: {
                     KR: "제작자",
@@ -1900,8 +1912,8 @@ l = {
                 e: "li_color",
                 ul: 0
             },
-            LMB: d.LMB,
-            CBO: d.CBO
+            CBO: d.CBO,
+            LMB: d.LMB
         }
     },
     opacity: {
@@ -3290,7 +3302,7 @@ l = {
                 view24_Number: {
                     tt: {
                         KR: "레이드 모드",
-                        JP: "Raidモード",
+                        JP: "レイドモード",
                         EN: "Raid Mode",
                         DE: "Raid Modus",
                         CN: "Raid模式",
@@ -3298,7 +3310,7 @@ l = {
                     msg: {
                         KR: "파티원이 ★명 이상일 때 테이블을 간단히 표시",
                         JP: "★人以上のパーティーでテーブルを簡略化する",
-                        EN: "Display table simply when there are ★ or more combatants.",
+                        EN: "Display the table simply when there are ★ or more combatants.",
                         DE: "Automatische Anpassung der Graphen, falls die Anzahl der Kämpfer > ★ beträgt.",
                         CN: "小队有★人或更多时简化图表显示",
                     },

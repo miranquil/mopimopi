@@ -120,7 +120,7 @@ function onRaidCombatDataUpdate(flag, last) {
         for (var d in last.persons) {
             var a = last.persons[d];
             var userName = a.name.replace(/ /g, "").replace("(", "").replace(")", "").replace(/'/g, "_");
-            if (init.q.pets == 1 && a.Job == 'AVA' || a.Class == '') { } else {
+            if (init.q.pets == 1 && a.Job == "AVA" || a.Class == '') { } else {
                 if (flag == "HPS") {
                     if (init.q.HPS_T == 1 && a.role == 'Tanker' || init.q.HPS_H == 1 && a.role == 'Healer' || init.q.HPS_D == 1 && a.role == 'DPS' || init.q.HPS_C == 1 && a.Job == 'CBO' || init.q.HPS_M == 1 && a.role == 'Crafter' || init.q.HPS_M == 1 && a.role == 'Gathering') {
                         if (set <= init.Range.size24TableSlice) {
@@ -175,7 +175,7 @@ function onCombatDataUpdate(flag, last) {
         for (var d in last.persons) {
             var a = last.persons[d];
             var userName = a.name.replace(/ /g, "").replace("(", "").replace(")", "").replace(/'/g, "_");
-            if (init.q.pets == 1 && a.Job == 'AVA' || a.Class == '') { } else {
+            if (init.q.pets == 1 && a.Job == "AVA" || a.Class == '') { } else {
                 var bodyHeight = parseInt(init.Range.sizeBody) + parseInt(init.Range.sizeLine)
                 if (flag == "HPS") {
                     if (init.q.HPS_T == 1 && a.role == 'Tanker' || init.q.HPS_H == 1 && a.role == 'Healer' || init.q.HPS_D == 1 && a.role == 'DPS' || init.q.HPS_C == 1 && a.Job == 'CBO' || init.q.HPS_M == 1 && a.role == 'Crafter' || init.q.HPS_M == 1 && a.role == 'Gathering') {
@@ -204,7 +204,7 @@ function onCombatDataUpdate(flag, last) {
         for (var d in last.persons) {
             var a = last.persons[d];
             var userName = a.name.replace(/ /g, "").replace("(", "").replace(")", "").replace(/'/g, "_");
-            if (init.q.pets == 1 && a.Job == 'AVA' || a.Class == '') { } else
+            if (init.q.pets == 1 && a.Job == "AVA" || a.Class == '') { } else
                 inputGraph(userName, flag, a.parent.maxdamage, a)
         }
     }
@@ -296,7 +296,8 @@ function cutName(name) {
     if (name.indexOf("(") > -1) {
         var tmp = name.split('(');
         var cn = tmp[1].substr(0, tmp[1].length - 1)
-
+        if (myName == "")   
+            myName = 'YOU'        
         if(init.q.myName == false && cn == "YOU")   
             return tmp[0] + ' (' + printName(myName) + ')'
         else 
@@ -492,7 +493,7 @@ function inputGraph(userName, flag, maxDamage, p) {
     })
     if (init.q.pets == 1) {
         if (flag == 'DPS') {
-            if (p.Class == "MCH" || p.Class == "SMN" || p.Class == "ACN") {
+            if (p.Class == "MCH" || p.Class == "SMN" || p.Class == "ACN" || p.Class == "NIN" || p.Class == "DRK") {
                 var petWidth = Math.min(100, parseInt((p.mergedDamage - p.damage) / maxDamage * 100))
                 graphAnimate(petWidth, 'pet', flag, userName, 'pet')
             }

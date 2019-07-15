@@ -380,14 +380,13 @@ function Person(e, p) {
         this["DPS-k"] = Math.floor(this.dps / 1000);
         this["HPS-k"] = Math.floor(this.hps / 1000);
         for (var i in this) {
-            if (this[i] == "?닞")
+            if (this[i] == "∞")
                 this[i] = 0
         }
     }
     if (this.Job != "")
         this.Class = this.Job.toUpperCase();
     this.petOwner = "";
-    this.petType = "Chocobo";
     this.isPet = !1;
     this.role = "DPS";
     this.rank = 0;
@@ -456,31 +455,57 @@ function Person(e, p) {
                 this.role = "Tanker";
                 break
         }
-    }
+    }    
+    var smnPetsList = ["카벙클 에메랄드", "カーバンクル・エメラルド", "绿宝石兽", "Smaragd-Karfunkel", "Carbuncle émeraude", "Emerald Carbuncle",
+                        "카벙클 토파즈", "カーバンクル・トパーズ", "黄宝石兽", "Topas-Karfunkel", "Carbuncle topaze", "Topaz Carbuncle",
+                        "카벙클 루비", "カーバンクル・ルビー", "红宝石兽", "Rubin-Karfunkel", "Carbuncle rubis", "Ruby Carbuncle",
+                        "가루다 에기", "ガルーダ・エギ", "迦楼罗之灵", "Garuda-Egi",
+                        "이프리트 에기", "イフリート・エギ", "伊弗利特之灵", "Ifrit-Egi",
+                        "타이탄 에기", "タイタン・エギ", "泰坦之灵", "Titan-Egi",
+                        "데미바하무트", "デミ・バハムート", "亚灵神巴哈姆特", "Demi-Bahamut", "デミ・フェニックス",
+                        "Demi-Phönix", "Demi-Phénix", "Demi-Phoenix"];
+    var mchPetsList = ["자동포탑 룩", "オートタレット・ルーク", "车式浮空炮塔", "Selbstschuss-Gyrocopter TURM", "Auto-tourelle Tour", "Rook Autoturret",
+                        "자동포탑 비숍", "オートタレット・ビショップ", "象式浮空炮塔", "Selbstschuss-Gyrocopter LÄUFER", "Auto-tourelle Fou", "Bishop Autoturret",
+                        "オートマトン・クイーン", "Automaton DAME", "Automate Reine", "Automaton Queen"];
+    var schPetsList = ["요정 에오스", "フェアリー・エオス", "朝日小仙女", "Eos",
+                        "요정 셀레네", "フェアリー・セレネ", "夕月小仙女", "Selene",
+                        "セラフィム", "Seraph", "Séraphin"];
+    var drkPetsList = ["英雄の影身", "Schattenschemen", "Estime", "Esteem"];
+    var ninPetsList = ["分身", "Gedoppeltes Ich", "Ombre", "Bunshin"];
+
+    var petsName = this.name.split(' (')[0];
 
     if (this.Class == "") {
-        if (this.name.indexOf("에기") > -1 || this.name.indexOf("카벙클") > -1 || this.name.indexOf("데미바하무트") > -1 || this.name.indexOf("Egi") > -1 || this.name.indexOf("Demi-Bahamut") > -1 || this.name.indexOf("Carbuncle") > -1 || this.name.indexOf("Karfunkel") > -1 || this.name.indexOf("エギ") > -1 || this.name.indexOf("カーバンクル") > -1 || this.name.indexOf("石兽") > -1 || this.name.indexOf("之灵") > -1 || this.name.indexOf("亚灵神巴哈姆特") > -1) {
+        if (smnPetsList.indexOf(petsName) > -1) {
             this.Job = "AVA";
             this.Class = "SMN";
             this.isPet = true;
-            this.petType = "Egi"
         }
-        if (this.name.indexOf("요정") > -1 || this.name.indexOf("Eos") > -1 || this.name.indexOf("Selene") > -1 || this.name.indexOf("フェアリー") > -1 || this.name.indexOf("小仙女") > -1) {
+        else if (schPetsList.indexOf(petsName) > -1) {
             this.Job = "AVA";
             this.Class = "SCH";
             this.isPet = true;
             this.role = "Healer";
-            this.petType = "Fairy"
         }
-        if (this.name.indexOf("자동포탑") > -1 || this.name.indexOf("Autoturret") > -1 || this.name.indexOf("オートタレット") > -1 || this.name.indexOf("Selbstschuss-Gyrocopter") > -1 || this.name.indexOf("Auto-tourelle") > -1 || this.name.indexOf("式浮空炮塔") > -1) {
+        else if (mchPetsList.indexOf(petsName) > -1) {
             this.Job = "AVA";
             this.Class = "MCH";
             this.isPet = true;
-            this.petType = "AutoTurret"
         }
-        if (this.name.toUpperCase().indexOf("LIMIT BREAK") > -1 || this.name.indexOf("リミット") > -1) {
+        else if (drkPetsList.indexOf(petsName) > -1) {
+            this.Job = "AVA";
+            this.Class = "DRK";
+            this.isPet = true;            
+            this.role = "Tanker";
+        }
+        else if (ninPetsList.indexOf(petsName) > -1) {
+            this.Job = "AVA";
+            this.Class = "NIN";
+            this.isPet = true;
+        }       
+        else if (this.name.indexOf("(") == -1) {
             this.Job = "LMB";
-            this.Class = "LMB"
+            this.Class = "LMB";
         }
     }
     try {
@@ -569,8 +594,7 @@ function Person(e, p) {
     if (this.petOwner != "" && this.Job == "0") {
         this.Job = "CBO";
         this.Class = "CBO";
-        this.petType = "Chocobo_Persons";
-        this.role = "CBO"
+        this.role = "CBO";        
     }
     if (this.overHeal != undefined) { }
 
