@@ -63,18 +63,15 @@ function update(lastDPS, lastHPS) {
         var rd = "RD " + addComma(lastDPS.Encounter.ENCDPS) + "　"
         var rh = "RH " + addComma(lastHPS.Encounter.ENCHPS) + "　"
         var rk = "Rank " + parseInt(lastDPS.Combatant.YOU.rank + 1) + "/" + parseInt(lastHPS.Combatant.YOU.rank + 1) + "/" + lastDPS.partys + "　"
-
-        if (init.q.swap == 0)
-            var max = '<span name="swapBtn">MaxHit&nbsp;</span>' + addData('MaxHit', null, lastDPS.Combatant.YOU).replace('<font class="ex">', '').replace("</font>", '') + '　</span>'
-        else
-            var max = '<span name="swapBtn">MaxHeal&nbsp;</span>' + addData('MaxHeal', null, lastHPS.Combatant.YOU).replace('<font class="ex">', '').replace("</font>", '') + '　</span>'
-
         var msg = ''
-
+        if (init.q.swap == 0)
+            var max = '<span name="swapBtn">MaxHit </span>' + addData('MaxHit', null, lastDPS.Combatant.YOU).replace('<font class="ex">', '').replace("</font>", '')
+        else
+            var max = '<span name="swapBtn">MaxHeal </span>' + addData('MaxHeal', null, lastHPS.Combatant.YOU).replace('<font class="ex">', '').replace("</font>", '')
         if (init.q.act_rd) msg += rd
         if (init.q.act_rh) msg += rh
         if (init.q.act_rank) msg += rk
-        if (init.q.act_max) msg += max
+        if (init.q.act_max) msg += max.replace('<font class="ex">', '').replace("</font>", '')
 
         $('[name=rps]').html(msg)
 
@@ -250,12 +247,13 @@ function createTableBody(userName, flag, newBody, a) {
     var miniBar = document.createElement("div");
     miniBar.className = "mini";
 
-    if ((a.Class == "SMN" || a.Class == "MCH" || a.Class == "ACN") && init.q.bar_pet == 1) {
-        var bar1 = document.createElement("div");
-        bar1.className = "pet";
-        miniBar.appendChild(bar1);
-    }
-    if (flag == "HPS") {
+   if (flag == "DPS") {
+        if (init.q.bar_pet == 1) {
+            var bar1 = document.createElement("div");
+            bar1.className = "pet";
+            miniBar.appendChild(bar1);
+        }
+    } else {
         if (init.q.bar_oh == 1) {
             var bar1 = document.createElement("div");
             bar1.className = "oh";
@@ -266,7 +264,7 @@ function createTableBody(userName, flag, newBody, a) {
             bar2.className = "ds";
             miniBar.appendChild(bar2);
         }
-        if (a.Class == "SCH" && init.q.bar_pet == 1) {
+        if (init.q.bar_pet == 1) {
             var bar3 = document.createElement("div");
             bar3.className = "pet";
             miniBar.appendChild(bar3);
@@ -493,16 +491,12 @@ function inputGraph(userName, flag, maxDamage, p) {
     })
     if (init.q.pets == 1) {
         if (flag == 'DPS') {
-            if (p.Class == "MCH" || p.Class == "SMN" || p.Class == "ACN" || p.Class == "NIN" || p.Class == "DRK") {
-                var petWidth = Math.min(100, parseInt((p.mergedDamage - p.damage) / maxDamage * 100))
-                graphAnimate(petWidth, 'pet', flag, userName, 'pet')
-            }
+            var petWidth = Math.min(100, parseInt((p.mergedDamage - p.damage) / maxDamage * 100))
+            graphAnimate(petWidth, 'pet', flag, userName, 'pet')
         } else {
-            if (p.Class == "SCH") {
-                var fairyEffHeal = parseInt(p.mergedEffHealed - p.effHealed)
-                var petWidth = Math.min(100, parseInt((fairyEffHeal / maxDamage) * 100))
-                graphAnimate(petWidth, 'pet', flag, userName, 'pet')
-            }
+            var fairyEffHeal = parseInt(p.mergedEffHealed - p.effHealed)
+            var petWidth = Math.min(100, parseInt((fairyEffHeal / maxDamage) * 100))
+            graphAnimate(petWidth, 'pet', flag, userName, 'pet')
             graphAnimate(shield, 'ds', flag, userName, 'ds')
             graphAnimate(overheal, 'oh', flag, userName, 'oh')
         }
