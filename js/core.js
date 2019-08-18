@@ -469,7 +469,7 @@ function Person(e, p) {
                         "オートマトン・クイーン", "Automaton DAME", "Automate Reine", "Automaton Queen", "皇后自行机兵", "皇后自行機兵"];
     var schPetsList = ["요정 에오스", "フェアリー・エオス", "朝日小仙女", "Eos",
                         "요정 셀레네", "フェアリー・セレネ", "夕月小仙女", "Selene",
-                        "セラフィム", "Seraph", "Séraphin", "六翼炽天使", "六翼熾天使"];
+                        "セラフィム", "Seraph", "Séraphin", "六翼炽天使", "六翼熾天使", "炽天使", "熾天使"];
     var drkPetsList = ["英雄の影身", "Schattenschemen", "Estime", "Esteem", "英雄之影"];
     var ninPetsList = ["分身", "Gedoppeltes Ich", "Ombre", "Bunshin"];
     var astPetsList = ["지상의 별", "Earthly Star", "アーサリースター", "Irdischer Stern", "Étoile terrestre", "地星"];
