@@ -9,7 +9,7 @@ var barSize = new Array(),
 function onOverlayDataUpdate(e) {
     lastDPS = lastCombat
     lastHPS = new Combatant(e, 'enchps');
-    console.log(lastDPS)
+    console.log(lastDPS);
     if (view != 'settings') {
         if (!firstCombat) {
             $('[name=notice], [name=history]').fadeOut(0)
@@ -564,9 +564,12 @@ function graphColor(job, role, userName) {
             if (init.q.myColorUse == 1 && userName.indexOf("YOU") > -1 && job != "ds" && job != "oh" && job != "pet")
                 return '#' + init.Color.myColor
             else {
-                if (role != undefined || role != null)
-                    return '#' + init.Color[role]
-                else
+                if (role != undefined || role != null){
+                    if(job == "LMB")
+                        return '#' + init.Color[job]
+                    else
+                        return '#' + init.Color[role]
+                }else
                     return '#' + init.Color[job]
             }
         case "meYou":
