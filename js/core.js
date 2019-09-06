@@ -1,4 +1,3 @@
-//미리보기 데이터
 var xhr = new XMLHttpRequest();
 xhr.onload = function () {
     if (xhr.status === 200) {
@@ -475,6 +474,7 @@ function Person(e, p) {
                         "セラフィム", "Seraph", "Séraphin", "六翼炽天使", "六翼熾天使", "炽天使", "熾天使"];
     var drkPetsList = ["英雄の影身", "Hochachtung", "Estime", "Esteem", "英雄之影"];
     var ninPetsList = ["分身", "Gedoppeltes Ich", "Ombre", "Bunshin"];
+    var astPetsList = ["지상의 별", "アーサリースター", "地星", "Earthly Star", "Étoile terrestre", "Irdischer Stern"];
 
     var petsName = this.name.split(' (')[0];
 
@@ -506,10 +506,16 @@ function Person(e, p) {
             this.Class = "NIN";
             this.isPet = true;
         }
+        else if(astPetsList.indexOf(petsName) > -1) {            
+            this.Job = "AVA";
+            this.Class = "AST";
+            this.isPet = true;
+            this.role = "Healer";
+        }
         else if (this.name.indexOf("(") == -1) {
             this.Job = "LMB";
             this.Class = "LMB";
-        }
+        }        
     }
     try {
         this.maxhitstr = this.maxhit.replace(/[0-9.,']/g,"").trim().slice(0,-1)
