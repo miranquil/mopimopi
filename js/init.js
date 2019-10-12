@@ -259,7 +259,11 @@ Mopi2 = {
         "Enchanted Redoublement": "E.Redoubl",
         "Enchanted Riposte": "E.Riposte",
         "Enchanted Zwerchhau": "E.Zwerch",
-        "Refulgent Arrow": "Ref.Arrow"
+        "Refulgent Arrow": "Ref.Arrow",
+        "Double Standard Finish": "D.S Finish",
+        "Quadruple Technical Finish": "Q.T Finish",
+        "标准舞步结束": "标准闭幕",
+        "技巧舞步结束": "技巧闭幕",
     },
 
     Order: {

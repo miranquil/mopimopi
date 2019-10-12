@@ -464,15 +464,15 @@ function Person(e, p) {
                         "가루다 에기", "ガルーダ・エギ", "迦楼罗之灵", "Garuda-Egi",
                         "이프리트 에기", "イフリート・エギ", "伊弗利特之灵", "Ifrit-Egi",
                         "타이탄 에기", "タイタン・エギ", "泰坦之灵", "Titan-Egi",
-                        "데미바하무트", "デミ・バハムート", "亚灵神巴哈姆特", "Demi-Bahamut", "デミ・フェニックス",
-                        "Demi-Phönix", "Demi-Phénix", "Demi-Phoenix", "亚灵神不死鸟", "亞靈神不死鳥"];
+                        "데미바하무트", "デミ・バハムート", "亚灵神巴哈姆特", "Demi-Bahamut", "デミ・フェニックス", "亚灵神不死鸟",
+                        "Demi-Phönix", "Demi-Phénix", "Demi-Phoenix"];
     var mchPetsList = ["자동포탑 룩", "オートタレット・ルーク", "车式浮空炮塔", "Selbstschuss-Gyrocopter TURM", "Auto-tourelle Tour", "Rook Autoturret",
                         "자동포탑 비숍", "オートタレット・ビショップ", "象式浮空炮塔", "Selbstschuss-Gyrocopter LÄUFER", "Auto-tourelle Fou", "Bishop Autoturret",
-                        "オートマトン・クイーン", "Automaton DAME", "Automate Reine", "Automaton Queen", "后式自走人偶"];
+                        "オートマトン・クイーン", "后式自走人偶", "Automaton DAME", "Automate Reine", "Automaton Queen"];
     var schPetsList = ["요정 에오스", "フェアリー・エオス", "朝日小仙女", "Eos",
                         "요정 셀레네", "フェアリー・セレネ", "夕月小仙女", "Selene",
-                        "セラフィム", "Seraph", "Séraphin", "六翼炽天使", "六翼熾天使", "炽天使", "熾天使"];
-    var drkPetsList = ["英雄の影身", "Hochachtung", "Estime", "Esteem", "英雄的掠影"];
+                        "セラフィム", "炽天使", "Seraph", "Séraphin"];
+    var drkPetsList = ["英雄の影身", "英雄的掠影", "Hochachtung", "Estime", "Esteem"];
     var ninPetsList = ["分身", "Gedoppeltes Ich", "Ombre", "Bunshin"];
     var astPetsList = ["지상의 별", "アーサリースター", "地星", "Earthly Star", "Étoile terrestre", "Irdischer Stern"];
 
