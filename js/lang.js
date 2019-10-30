@@ -6,14 +6,14 @@ l = {
             CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio, XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本。<br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：务必勾选<b>OverlayProc ❯ "AppRegion"</b>以限制拖放区域。<br><br>您可以切换<b>界面语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'MopiMopi[Yorushika 191022] Based on ver.190904',
-            EN: 'MopiMopi[Yorushika 191022] Based on ver.190904',
-            CN: 'MopiMopi[Yorushika 191022] Based on ver.190904'
+            KR: 'MopiMopi [Yorushika 191030] Based on ver 191027',
+            EN: 'MopiMopi [Yorushika 191030] Based on ver 191027',
+            CN: 'MopiMopi [Yorushika 191030] Based on ver 191027'
         },
         update: {
-            KR: '<div name="row"><div class="b">19/10/22</div><div class="m">[Yorushika] Add new Colorful icon set</div></div><div name="row"><div class="b">19/09/04</div><div class="m">지상의 별 버그 재수정</div></div><div name="row"><div class="b">19/08/31</div><div class="m">[인벤/우지훤] MaxHit/Heal 하이픈 버그 수정</div></div><div name="row"><div class="b">19/08/28</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : MaxHit/Heal 버그 수정</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : 암흑기사 소환수 이름 수정</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Raye Aerinae] 팔레트 값이 역할일 때, Limit Break 색상이 변경되지 않던 버그 수정</div></div><div name="row"><div class="b">19/07/23</div><div class="m">펫 그래프 버그 수정</div></div><div name="row"><div class="b">19/07/23</div><div class="m">지상의 별 버그 수정</div></div><div name="row"><div class="b">19/07/19</div><div class="m">내비게이션의 MaxHit/Heal 기술명 색상이 변경되지 않던 버그 수정</div></div><div name="row"><div class="c">19/07/10</div><div class="m">시작 페이지 레이아웃 변경</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[인벤/Stellalight] 5.0 신규 소환수 데이터 추가</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] 이니셜 버그 수정</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[노래하는혼@모그리] 5.0 patch Gunbreaker/Dancer 아이콘 세트 추가</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ 모피모피 벌써 2주년! 항상 감사드립니다! ★★★</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[이솜@모그리] 4.5 patch 청마도사 아이콘 세트 추가</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 클릭 시 캐릭터 이름 숨김 오류 수정</div></div><div name="row"><div class="b">19/01/02</div><div class="m">레이드 모드 : 직업 아이콘 크기 조절 오류 수정</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] 레이드 모드 커스터마이징 옵션 추가</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2019년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
-            EN: '<div name="row"><div class="b">19/10/22</div><div class="m">[Yorushika] Add new Colorful icon set</div></div><div name="row"><div class="b">19/09/04</div><div class="m">Fixed a bug of the Earthly Star again</div></div><div name="row"><div class="b">19/08/31</div><div class="m">[인벤/우지훤] Fixed a hyphen bug of MaxHit/Heal</div></div><div name="row"><div class="b">19/08/28</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : Fixed a bug of MaxHit/Heal</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : Fixed a Drk\'s pet name</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Raye Aerinae] If palette value is role, fixed a bug that the color of Limit Break graph in table did not change</div></div><div name="row"><div class="b">19/07/23</div><div class="m">Fixed a bug of the pet\'s graph</div></div><div name="row"><div class="b">19/07/23</div><div class="m">Fixed a bug of the Earthly Star</div></div><div name="row"><div class="b">19/07/19</div><div class="m">Fixed a bug that the color of MaxHit/Heal action name in navigation bar did not change</div></div><div name="row"><div class="c">19/07/10</div><div class="m">Changed a layout of the start page</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[Inven/Stellalight] Added data of the new 5.0 pets</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] Fixed a bug of the initial name</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[KR/노래하는혼@모그리] Added icon sets of the Gunbreaker/Dancer (5.0 patch)</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[KR/이솜@모그리] Added icon sets of the Blue Mage (4.5 patch)</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ 2nd anniversary of MopiMopi! Thank you for using it! ★★★</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid Mode : Fixed a bug that character name isn\'t hide when you click the job icon</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid Mode : Fixed a bug that job icon isn\'t resize</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] Added customizing options of the raid mode</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2/0/1/9 Best wishes for a Happy New Year! ★★★</div></div>',
-            CN: '<div name="row"><div class="b">19/10/22</div><div class="m">[Yorushika] 增加新的炫彩职业图标组</div></div><div name="row"><div class="b">19/09/04</div><div class="m">修复又㕛叒叕出现的地星错误</div></div><div name="row"><div class="b">19/08/31</div><div class="m">[인벤/우지훤] 修复最强伤害/治疗的连字符 bug</div></div><div name="row"><div class="b">19/08/28</div><div class="m">[Gmail/Marc Henne] 德文版客户端：修复最强伤害/治疗的一个 bug</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Marc Henne] 德文版客户端：修正暗黑骑士召唤物名称</div></div><div name="row"><div class="b">19/08/27</div><div class="m">[Gmail/Raye Aerinae] 修复调色板特定数值导致极限技图表不受影响的问题</div></div><div name="row"><div class="b">19/07/23</div><div class="m">修复宠物图表的显示错误</div></div><div name="row"><div class="b">19/07/23</div><div class="m">修复地星的显示错误</div></div><div name="row"><div class="b">19/07/19</div><div class="m">修复导航栏中最强伤害/治疗技能名不会改变的问题</div></div><div name="row"><div class="c">19/07/10</div><div class="m">更改起始页面布局</div></div><div name="row"><div class="u">19/07/05</div><div class="m">[Inven/Stellalight] 增加5.0新召唤兽数据</div></div><div name="row"><div class="b">19/06/30</div><div class="m">[twitch/Armell] 修复初始姓名问题</div></div><div name="row"><div class="u">19/06/28</div><div class="m">[KR/노래하는혼@모그리] 添加了Gunbreaker/Dancer的职业图标（5.0更新）</div></div><div name="row"><div class="u">19/01/22</div><div class="m">[KR/이솜@모그리] 添加了青魔法师的职业图标（4.5更新）</div></div><div name="row"><div class="n">19/03/14</div><div class="m">★★★ MopiMopi二周年！感谢您的使用！ ★★★</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid模式：修复点击职业图标时角色名称出错</div></div><div name="row"><div class="b">19/01/02</div><div class="m">Raid模式：修复职业图标尺寸调整错误</div></div><div name="row"><div class="u">19/01/02</div><div class="m">[Gmail/Mark Megyeri] 增加Raid模式的自定义选项</div></div><div name="row"><div class="n">19/01/01</div><div class="m">★★★ 2/0/1/9 诚祝诸位新年快乐！ ★★★</div></div>'
+            KR: '<div name="row"><div class="n">10/27</div><div class="m">★★★ 셀 옵션 추가를 위해 데이터 구성과 순서의 값을 초기화했습니다. 불편을 드려 죄송합니다. ★★★</div></div><div name="row"><div class="b">10/27</div><div class="m">기타 마이너 버그 및 오타 수정</div></div><div name="row"><div class="c">10/27</div><div class="m">설정 → 데이터 레이아웃 변경</div></div><div name="row"><div class="u">10/27</div><div class="m">설정 → 디자인 → 고급 설정 옵션 추가 : 내비게이션에 나의 DPS, HPS 표시 가능</div></div><div name="row"><div class="u">10/27</div><div class="m">[Gmail/Terence] 설정 → 디자인 → 셀 옵션 추가 : 헤더 글자, 너비, 여백, 정렬을 각각 변경 가능</div></div><div name="row"><div class="u">10/22</div><div name="row"><div class="b">09/04</div><div class="m">지상의 별 버그 재수정</div></div><div name="row"><div class="b">08/31</div><div class="m">[인벤/우지훤] MaxHit/Heal 하이픈 버그 수정</div></div><div name="row"><div class="b">08/28</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : MaxHit/Heal 버그 수정</div></div><div name="row"><div class="b">08/27</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : 암흑기사 소환수 이름 수정</div></div><div name="row"><div class="b">08/27</div><div class="m">[Gmail/Raye Aerinae] 팔레트 값이 역할일 때, Limit Break 색상이 변경되지 않던 버그 수정</div></div><div name="row"><div class="b">07/23</div><div class="m">펫 그래프 버그 수정</div></div><div name="row"><div class="b">07/23</div><div class="m">지상의 별 버그 수정</div></div><div name="row"><div class="b">07/19</div><div class="m">내비게이션의 MaxHit/Heal 기술명 색상이 변경되지 않던 버그 수정</div></div><div name="row"><div class="c">07/10</div><div class="m">시작 페이지 레이아웃 변경</div></div><div name="row"><div class="u">07/05</div><div class="m">[인벤/Stellalight] 5.0 신규 소환수 데이터 추가</div></div><div name="row"><div class="b">06/30</div><div class="m">[twitch/Armell] 이니셜 버그 수정</div></div><div name="row"><div class="u">06/28</div><div class="m">[KR/노래하는혼@모그리] 5.0 patch Gunbreaker/Dancer 아이콘 세트 추가</div></div><div name="row"><div class="n">03/14</div><div class="m">★★★ 모피모피 벌써 2주년! 항상 감사드립니다! ★★★</div></div><div name="row"><div class="u">01/22</div><div class="m">[KR/이솜@모그리] 4.5 patch 청마도사 아이콘 세트 추가</div></div><div name="row"><div class="b">01/02</div><div class="m">레이드 모드 : 직업 아이콘 클릭 시 캐릭터 이름 숨김 오류 수정</div></div><div name="row"><div class="b">01/02</div><div class="m">레이드 모드 : 직업 아이콘 크기 조절 오류 수정</div></div><div name="row"><div class="u">01/02</div><div class="m">[Gmail/Mark Megyeri] 레이드 모드 커스터마이징 옵션 추가</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2019년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
+            EN: '<div name="row"><div class="n">Oct 27</div><div class="m">★★★ I\'ve initialized the values of Settings → Data → Formatting and Order to add cell customizing options. Sorry for the inconvenience. ★★★</div></div><div name="row"><div class="b">Oct 27</div><div class="m">Fixed the minor bugs and typo</div></div><div name="row"><div class="c">Oct 27</div><div class="m">Changed a layout of the Settings → Data page</div></div><div name="row"><div class="u">Oct 27</div><div class="m">Added options of the Settings → Design →Advanced : My DPS and HPS can be displayed in the navigation.</div></div><div name="row"><div class="u">Oct 27</div><div class="m">[Gmail/Terence] Added options of the Settings → Design → Cell : You can change each of the header text, width, margin and align value.</div></div><div name="row"><div class="b">Sep 04</div><div class="m">Fixed a bug of the Earthly Star again</div></div><div name="row"><div class="b">Aug 31</div><div class="m">[인벤/우지훤] Fixed a hyphen bug of MaxHit/Heal</div></div><div name="row"><div class="b">Aug 28</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : Fixed a bug of MaxHit/Heal</div></div><div name="row"><div class="b">Aug 27</div><div class="m">[Gmail/Marc Henne] FFXIV-DE : Fixed a Drk\'s pet name</div></div><div name="row"><div class="b">Aug 27</div><div class="m">[Gmail/Raye Aerinae] If palette value is role, fixed a bug that the color of Limit Break graph in table did not change</div></div><div name="row"><div class="b">Jul 23</div><div class="m">Fixed a bug of the pet\'s graph</div></div><div name="row"><div class="b">Jul 23</div><div class="m">Fixed a bug of the Earthly Star</div></div><div name="row"><div class="b">Jul 19</div><div class="m">Fixed a bug that the color of MaxHit/Heal action name in navigation bar did not change</div></div><div name="row"><div class="c">Jul 10</div><div class="m">Changed a layout of the start page</div></div><div name="row"><div class="u">Jul 05</div><div class="m">[Inven/Stellalight] Added data of the new 5.0 pets</div></div><div name="row"><div class="b">Jun 30</div><div class="m">[twitch/Armell] Fixed a bug of the initial name</div></div><div name="row"><div class="u">Jun 28</div><div class="m">[KR/노래하는혼@모그리] Added icon sets of the Gunbreaker/Dancer (5.0 patch)</div></div><div name="row"><div class="n">Mar 14</div><div class="m">★★★ 2nd anniversary of MopiMopi! Thank you for using it! ★★★</div></div><div name="row"><div class="u">Jan 22</div><div class="m">[KR/이솜@모그리] Added icon sets of the Blue Mage (4.5 patch)</div></div><div name="row"><div class="b">Jan 02</div><div class="m">Raid Mode : Fixed a bug that character name isn\'t hide when you click the job icon</div></div><div name="row"><div class="b">Jan 02</div><div class="m">Raid Mode : Fixed a bug that job icon isn\'t resize</div></div><div name="row"><div class="u">Jan 02</div><div class="m">[Gmail/Mark Megyeri] Added customizing options of the raid mode</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/1/9 Best wishes for a Happy New Year! ★★★</div></div>',
+            CN: '<div name="row"><div class="n">Oct 27</div><div class="m">★★★ 我添加了设置→数据→格式和顺序功能来客制化单元格，非常抱歉带来不便。 ★★★</div></div><div name="row"><div class="b">Oct 27</div><div class="m">修正小bug和排版错误。</div></div><div name="row"><div class="c">Oct 27</div><div class="m">更改了设置→数据页面的排版。</div></div><div name="row"><div class="u">Oct 27</div><div class="m">增加设置→布局→高级内选项：个人DPS和HPS可以在图表中显示了。</div></div><div name="row"><div class="u">Oct 27</div><div class="m">[Gmail/Terence] 增加设置→布局→单元格选项：你可以更改每个表头文本、宽度、缩进和对齐属性。</div></div><div name="row"><div class="b">Oct 22</div><div class="m">[Yorushika] 增加新的炫彩职业图标组</div></div><div name="row"><div class="b">Sep 04</div><div class="m">修复又㕛叒叕出现的地星错误</div></div><div name="row"><div class="b">Aug 31</div><div class="m">[인벤/우지훤] 修复最强伤害/治疗的连字符 bug</div></div><div name="row"><div class="b">Aug 28</div><div class="m">[Gmail/Marc Henne] 德文版客户端：修复最强伤害/治疗的一个 bug</div></div><div name="row"><div class="b">Aug 27</div><div class="m">[Gmail/Marc Henne] 德文版客户端：修正暗黑骑士召唤物名称</div></div><div name="row"><div class="b">Aug 27</div><div class="m">[Gmail/Raye Aerinae] 修复调色板特定数值导致极限技图表不受影响的问题</div></div><div name="row"><div class="b">Jul 23</div><div class="m">修复宠物图表的显示错误</div></div><div name="row"><div class="b">Jul 23</div><div class="m">修复地星的显示错误</div></div><div name="row"><div class="b">Jul 19</div><div class="m">修复导航栏中最强伤害/治疗技能名不会改变的问题</div></div><div name="row"><div class="c">Jul 10</div><div class="m">更改起始页面布局</div></div><div name="row"><div class="u">Jul 05</div><div class="m">[Inven/Stellalight] 增加5.0新召唤兽数据</div></div><div name="row"><div class="b">Jun 30</div><div class="m">[twitch/Armell] 修复初始姓名问题</div></div><div name="row"><div class="u">Jun 28</div><div class="m">[KR/노래하는혼@모그리] 添加了Gunbreaker/Dancer的职业图标（5.0更新）</div></div><div name="row"><div class="n">Mar 14</div><div class="m">★★★ MopiMopi二周年！感谢您的使用！ ★★★</div></div><div name="row"><div class="u">Jan 22</div><div class="m">[KR/이솜@모그리] 添加了青魔法师的职业图标（4.5更新）</div></div><div name="row"><div class="b">Jan 02</div><div class="m">Raid模式：修复点击职业图标时角色名称出错</div></div><div name="row"><div class="b">Jan 02</div><div class="m">Raid模式：修复职业图标尺寸调整错误</div></div><div name="row"><div class="u">Jan 02</div><div class="m">[Gmail/Mark Megyeri] 增加Raid模式的自定义选项</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/1/9 诚祝诸位新年快乐！ ★★★</div></div>'
         }
     },
     msg: {
@@ -391,11 +391,11 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.190904',
-                JP: 'MopiMopi ver.190904',
-                EN: 'MopiMopi ver.190904',
-                DE: 'MopiMopi ver.190904',
-                CN: "MopiMopi ver.190904",
+                KR: 'MopiMopi ver.191027',
+                JP: 'MopiMopi ver.191027',
+                EN: 'MopiMopi ver.191027',
+                DE: 'MopiMopi ver.191027',
+                CN: "MopiMopi ver.191027",
             },
             i: "new_releases",
             e: "li_2line",
@@ -422,377 +422,415 @@ l = {
         }
     },
     Data: {
-        format: {
-            tt: {
-                KR: "구성",
-                JP: "構成",
-                EN: "Formatting",
-                DE: "Formatierung",
-                CN: "内容",
-            },
-            i: "view_column",
-            e: "li_link",
-            ul: 1
-        },
-        order: {
-            tt: {
-                KR: "순서",
-                JP: "順序",
-                EN: "Order",
-                DE: "Reihenfolge",
-                CN: "顺序",
-            },
-            i: "swap_vert",
-            e: "li_link",
-            ul: 0
-        },
-        pets: {
-            tt: {
-                KR: "소환수 데이터 합산하기",
-                JP: "ペットのデータを合算する",
-                EN: "Combine Pets with Owner",
-                DE: "Charakter und Begleiter zusammenfassen",
-                CN: "合并自身与召唤物数据",
-            },
-            i: "merge_type",
-            e: "li_checkbox",
-            ul: 1
-        },
-        dpsType: {
-            tt: {
-                KR: "DPS, HPS 데이터 유형",
-                JP: "DPS、HPSデータタイプ",
-                EN: "Data Type of DPS, HPS",
-                DE: "Datentyp vom DPS/HPS",
-                CN: "DPS、HPS数据类型",
-            },
-            m: {
-                0: d.int,
-                1: d.float
-            },
-            i: "edit",
-            e: "li_radio",
+        tab_general: {
+            tt: d.general,
+            e: "tab_btn",
+            w: 25,
             p: "Data",
-            ul: 1
-        },
-        perType: {
-            tt: {
-                KR: "% 데이터 유형",
-                JP: "%データタイプ",
-                EN: "Data Type of %",
-                DE: "Datentyp der %",
-                CN: "% 数据类型",
-            },
-            m: {
-                0: d.int,
-                1: d.float,
-            },
-            i: "edit",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        dmgType: {
-            tt: {
-                KR: "Damage, Healed 데이터 유형",
-                JP: "Damage、Healedデータタイプ",
-                EN: "Data Type of Damage, Healed ",
-                DE: "Datentyp der Damage, Healed ",
-                CN: "伤害、治疗量数据类型",
-            },
-            m: {
-                0: d.int,
-                1: d.float
-            },
-            i: "edit",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        ds: {
-            tt: {
-                KR: "소수점 기호",
-                JP: "小数点の記号",
-                EN: "Decimal Symbol",
-                DE: "Dezimaltrennzeichen",
-                CN: "小数点符号",
-            },
-            m: {
-                ".": d["."],
-                ",": d[","],
-                "_": d["_"],
-                "'": d["'"]
-            },
-            i: "format_quote",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        ns: {
-            tt: {
-                KR: "소수점 이하 자릿수",
-                JP: "小数点以下の桁数",
-                EN: "No. of Digits after Decimal",
-                DE: "Anzahl der Dezimalstellen",
-                CN: "小数保留位数",
-            },
-            m: {
-                1: d["1"],
-                2: d["2"]
-            },
-            i: "exposure_plus_2",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        gs: {
-            tt: {
-                KR: "자릿수 구분 기호",
-                JP: "桁区切り記号",
-                EN: "Digit Grouping Symbol",
-                DE: "Symbol für Zifferngruppierung",
-                CN: "数字分隔符",
-            },
-            m: {
-                0: d.noUse,
-                ".": d["."],
-                ",": d[","],
-                "_": d["_"],
-                "'": d["'"],
-            },
-            i: "format_quote",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        unit: {
-            tt: {
-                KR: "단위",
-                JP: "単位",
-                EN: "Unit",
-                DE: "Unit",
-                CN: "单位",
-            },
-            m: {
-                KR: "1k = 1000, 1M = 1000000",
-                JP: "1k = 1000、1M = 1000000",
-                EN: "1k = 1000, 1M = 1000000",
-                DE: "1k = 1000, 1M = 1000000",
-                CN: "1k = 1000，1M = 1000000",
-            },
-            i: "sort",
-            e: "li_2line_checkbox_normal",
-            ul: 0
-        },
-        max_unit: {
-            tt: {
-                KR: "MaxHit, MaxHeal 단위",
-                JP: "MaxHit、MaxHeal単位",
-                EN: "Unit of MaxHit, MaxHeal",
-                DE: "Unit des MaxHit, MaxHeal",
-                CN: "MaxHit，MaxHeal 单位",
-            },
-            m: {
-                KR: "1k = 1000, 1M = 1000000",
-                JP: "1k = 1000、1M = 1000000",
-                EN: "1k = 1000, 1M = 1000000",
-                DE: "1k = 1000, 1M = 1000000",
-                CN: "1k = 1000，1M = 1000000",
-            },
-            i: "sort",
-            e: "li_2line_checkbox_normal",
-            ul: 0
-        },
-        cnt: {
-            tt: {
-                KR: "이름 표시 유형",
-                JP: "名前の表示タイプ",
-                EN: "Display Type of Name",
-                DE: "Anzeigetyp des Namens",
-                CN: "名称显示类型",
-            },
-            m: {
-                1: {
-                    KR: "풀네임으로 보기",
-                    JP: "フルネーム",
-                    EN: "Full Name",
-                    DE: "Voller Name",
-                    CN: "全名",
+            inner: {
+                format: {
+                    tt: {
+                        KR: "구성",
+                        JP: "構成",
+                        EN: "Formatting",
+                        DE: "Formatierung",
+                        CN: "格式",
+                    },
+                    i: "view_column",
+                    e: "li_link",
+                    ul: 1
                 },
-                2: {
-                    KR: "이름 단축하기",
-                    JP: "姓のみイニシャル",
-                    EN: "Surname Abbreviated",
-                    DE: "Nachname abgekürzt",
-                    CN: "缩写姓",
+                order: {
+                    tt: {
+                        KR: "순서",
+                        JP: "順序",
+                        EN: "Order",
+                        DE: "Reihenfolge",
+                        CN: "顺序",
+                    },
+                    i: "swap_vert",
+                    e: "li_link",
+                    ul: 0
                 },
-                3: {
-                    KR: "성 단축하기",
-                    JP: "名のみイニシャル",
-                    EN: "Forename Abbreviated",
-                    DE: "Vorname abgekürzt",
-                    CN: "缩写名",
-                },
-                4: {
-                    KR: "이니셜로 보기",
-                    JP: "姓名ともにイニシャル",
-                    EN: "Initials",
-                    DE: "Initialien",
-                    CN: "姓名首字母缩写",
+                pets: {
+                    tt: {
+                        KR: "소환수 데이터 합산하기",
+                        JP: "ペットのデータを合算する",
+                        EN: "Combine Pets with Owner",
+                        DE: "Charakter und Begleiter zusammenfassen",
+                        CN: "合并自身与召唤物数据",
+                    },
+                    i: "merge_type",
+                    e: "li_checkbox",
+                    ul: 1
                 }
+            }
+        },
+        tab_number: {
+            tt: {
+                KR: "숫자",
+                JP: "数字",
+                EN: "Number",
+                DE: "Zahlen",
+                CN: "数字",
             },
-            i: "people",
-            e: "li_radio",
+            e: "tab_btn",
+            w: 25,
             p: "Data",
-            ul: 1
-        },
-        rank: {
-            tt: {
-                KR: "이름에 순위 표시",
-                JP: "名の順位表示",
-                EN: "Display Rank in Name",
-                DE: "Zeige Rank im Namen",
-                CN: "在名字前显示排名",
-            },
-            i: "format_list_numbered",
-            e: "li_checkbox",
-            ul: 0
-        },
-        myName: {
-            tt: {
-                KR: "내 이름을 YOU로 표시",
-                JP: "自分のキャラクター名をYOUに表示",
-                EN: "Convert Name to YOU",
-                DE: "Konvertiert deinen Namen in “YOU”",
-                CN: "以YOU代替自身姓名",
-            },
-            m: {
-                KR: "<a href='http://ffxivhaeru.blog.me/221325149295' target='_blank'>설정 전 주의사항</a>",
-                JP: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>設定する前の注意事項</a>",
-                EN: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>Read Me First</a>",
-                DE: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>Erst alles genau durchlesen, dann Einstellungen vornehmen!</a>",
-                CN: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>配置前请先阅读</a>",
-            },
-            i: "person",
-            e: "li_2line_checkbox_normal",
-            ul: 0
-        },
-        hideName: {
-            tt: {
-                KR: "이름 숨기기",
-                JP: "名前を隠す",
-                EN: "Hide the Name",
-                DE: "Namen ausblenden",
-                CN: "隐藏名称",
-            },
-            i: "visibility_off",
-            e: "li_checkbox",
-            ul: 0
-        },
-        mhh: {
-            tt: {
-                KR: "MaxHit, MaxHeal 표시 유형",
-                JP: "MaxHit、MaxHeal表示タイプ",
-                EN: "Display Type of MaxHit, MaxHeal",
-                DE: "Anzeigetyp des MaxHit, MaxHeal",
-                CN: "MaxHit、MaxHeal显示类型",
-            },
-            m: {
-                1: {
-                    KR: "기술명 + 데이터",
-                    JP: "技名 + データ",
-                    EN: "Action's Name + Data",
-                    DE: "Fähigkeitsnamen + Daten",
-                    CN: "技能名 + 数据",
+            inner: {
+                dpsType: {
+                    tt: {
+                        KR: "DPS, HPS 데이터 유형",
+                        JP: "DPS、HPSデータタイプ",
+                        EN: "Data Type of DPS, HPS",
+                        DE: "Datentyp vom DPS/HPS",
+                        CN: "DPS，HPS 数据类型",
+                    },
+                    m: {
+                        0: d.int,
+                        1: d.float
+                    },
+                    i: "edit",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 1
                 },
-                2: {
-                    KR: "데이터 + 기술명",
-                    JP: "データ + 技名",
-                    EN: "Data + Action's Name",
-                    DE: "Daten + Fähigkeitsnamen",
-                    CN: "数据 + 技能名",
+                perType: {
+                    tt: {
+                        KR: "% 데이터 유형",
+                        JP: "%データタイプ",
+                        EN: "Data Type of %",
+                        DE: "Datentyp der %",
+                        CN: "% 数据类型",
+                    },
+                    m: {
+                        0: d.int,
+                        1: d.float,
+                    },
+                    i: "edit",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 0
                 },
-                3: {
-                    KR: "기술명",
-                    JP: "技名",
-                    EN: "Action's Name",
-                    DE: "Fähigkeitsnamen",
-                    CN: "技能名",
+                dmgType: {
+                    tt: {
+                        KR: "Damage, Healed 데이터 유형",
+                        JP: "Damage、Healedデータタイプ",
+                        EN: "Data Type of Damage, Healed ",
+                        DE: "Datentyp der Damage, Healed ",
+                        CN: "Damage，Healed 数据类型",
+                    },
+                    m: {
+                        0: d.int,
+                        1: d.float
+                    },
+                    i: "edit",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 0
                 },
-                4: d.Data
+                ds: {
+                    tt: {
+                        KR: "소수점 기호",
+                        JP: "小数点の記号",
+                        EN: "Decimal Symbol",
+                        DE: "Dezimaltrennzeichen",
+                        CN: "小数点符号",
+                    },
+                    m: {
+                        ".": d["."],
+                        ",": d[","],
+                        "_": d["_"],
+                        "'": d["'"]
+                    },
+                    i: "format_quote",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 0
+                },
+                ns: {
+                    tt: {
+                        KR: "소수점 이하 자릿수",
+                        JP: "小数点以下の桁数",
+                        EN: "No. of Digits after Decimal",
+                        DE: "Anzahl der Dezimalstellen",
+                        CN: "小数点后尾数",
+                    },
+                    m: {
+                        1: d["1"],
+                        2: d["2"]
+                    },
+                    i: "exposure_plus_2",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 0
+                },
+                gs: {
+                    tt: {
+                        KR: "자릿수 구분 기호",
+                        JP: "桁区切り記号",
+                        EN: "Digit Grouping Symbol",
+                        DE: "Symbol für Zifferngruppierung",
+                        CN: "数字分隔符",
+                    },
+                    m: {
+                        0: d.noUse,
+                        ".": d["."],
+                        ",": d[","],
+                        "_": d["_"],
+                        "'": d["'"],
+                    },
+                    i: "format_quote",
+                    e: "li_radio",
+                    p: "Data_number",
+                    ul: 0
+                },
+                unit: {
+                    tt: {
+                        KR: "단위",
+                        JP: "単位",
+                        EN: "Unit",
+                        DE: "Unit",
+                        CN: "单位",
+                    },
+                    m: {
+                        KR: "1k = 1000, 1M = 1000000",
+                        JP: "1k = 1000、1M = 1000000",
+                        EN: "1k = 1000, 1M = 1000000",
+                        DE: "1k = 1000, 1M = 1000000",
+                        CN: "1k = 1000，1M = 1000000",
+                    },
+                    i: "sort",
+                    e: "li_2line_checkbox_normal",
+                    ul: 0
+                },
+                max_unit: {
+                    tt: {
+                        KR: "MaxHit, MaxHeal 단위",
+                        JP: "MaxHit、MaxHeal単位",
+                        EN: "Unit of MaxHit, MaxHeal",
+                        DE: "Unit des MaxHit, MaxHeal",
+                        CN: "MaxHit，MaxHeal 单位",
+                    },
+                    m: {
+                        KR: "1k = 1000, 1M = 1000000",
+                        JP: "1k = 1000、1M = 1000000",
+                        EN: "1k = 1000, 1M = 1000000",
+                        DE: "1k = 1000, 1M = 1000000",
+                        CN: "1k = 1000，1M = 1000000",
+                    },
+                    i: "sort",
+                    e: "li_2line_checkbox_normal",
+                    ul: 0
+                }
+            }
+        },
+        tab_name: {
+            tt: {
+                KR: "이름",
+                JP: "名前",
+                EN: "Name",
+                DE: "Namen",
+                CN: "名称",
+            },
+            e: "tab_btn",
+            w: 25,
+            p: "Data",
+            inner: {
+                cnt: {
+                    tt: {
+                        KR: "이름 표시 유형",
+                        JP: "名前の表示タイプ",
+                        EN: "Display Type of Name",
+                        DE: "Anzeigetyp des Namens",
+                        CN: "名称显示类型",
+                    },
+                    m: {
+                        1: {
+                            KR: "풀네임으로 보기",
+                            JP: "フルネーム",
+                            EN: "Full Name",
+                            DE: "Voller Name",
+                            CN: "全名",
+                        },
+                        2: {
+                            KR: "이름 단축하기",
+                            JP: "姓のみイニシャル",
+                            EN: "Surname Abbreviated",
+                            DE: "Nachname abgekürzt",
+                            CN: "缩写姓",
+                        },
+                        3: {
+                            KR: "성 단축하기",
+                            JP: "名のみイニシャル",
+                            EN: "Forename Abbreviated",
+                            DE: "Vorname abgekürzt",
+                            CN: "缩写名",
+                        },
+                        4: {
+                            KR: "이니셜로 보기",
+                            JP: "姓名ともにイニシャル",
+                            EN: "Initials",
+                            DE: "Initialien",
+                            CN: "姓名首字母缩写",
+                        }
+                    },
+                    i: "people",
+                    e: "li_radio",
+                    p: "Data_name",
+                    ul: 1
+                },
+                rank: {
+                    tt: {
+                        KR: "이름에 순위 표시",
+                        JP: "名の順位表示",
+                        EN: "Display Rank in Name",
+                        DE: "Zeige Rank im Namen",
+                        CN: "在名字前显示排名",
+                    },
+                    i: "format_list_numbered",
+                    e: "li_checkbox",
+                    ul: 0
+                },
+                myName: {
+                    tt: {
+                        KR: "내 이름을 YOU로 표시",
+                        JP: "自分のキャラクター名をYOUに表示",
+                        EN: "Convert Name to YOU",
+                        DE: "Konvertiert deinen Namen in “YOU”",
+                        CN: "以YOU代替自身姓名",
+                    },
+                    m: {
+                        KR: "<a href='http://ffxivhaeru.blog.me/221325149295' target='_blank'>설정 전 주의사항</a>",
+                        JP: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>設定する前の注意事項</a>",
+                        EN: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>Read Me First</a>",
+                        DE: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>Erst alles genau durchlesen, dann Einstellungen vornehmen!</a>",
+                        CN: "<a href='https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit#slide=id.g24320c31e9_0_67' target='_blank'>设置前的注意事项</a>",
+                    },
+                    i: "person",
+                    e: "li_2line_checkbox_normal",
+                    ul: 0
+                },
+                hideName: {
+                    tt: {
+                        KR: "이름 숨기기",
+                        JP: "名前を隠す",
+                        EN: "Hide the Name",
+                        DE: "Namen ausblenden",
+                        CN: "隐藏名称",
+                    },
+                    i: "visibility_off",
+                    e: "li_checkbox",
+                    ul: 0
+                }
+            }
+        },
+        tab_mhh: {
+            tt: d.actionName,
+            e: "tab_btn",
+            w: 25,
+            p: "Data",
+            inner: {
+                mhh: {
+                    tt: {
+                        KR: "MaxHit, MaxHeal 표시 유형",
+                        JP: "MaxHit、MaxHeal表示タイプ",
+                        EN: "Display Type of MaxHit, MaxHeal",
+                        DE: "Anzeigetyp des MaxHit, MaxHeal",
+                        CN: "MaxHit，MaxHeal 显示类型",
+                    },
+                    m: {
+                        1: {
+                            KR: "기술명 + 데이터",
+                            JP: "技名 + データ",
+                            EN: "Action's Name + Data",
+                            DE: "Fähigkeitsnamen + Daten",
+                            CN: "技能名 + 数据",
+                        },
+                        2: {
+                            KR: "데이터 + 기술명",
+                            JP: "データ + 技名",
+                            EN: "Data + Action's Name",
+                            DE: "Daten + Fähigkeitsnamen",
+                            CN: "数据 + 技能名",
+                        },
+                        3: d.actionName,
+                        4: d.Data
 
-            },
-            i: "content_cut",
-            e: "li_radio",
-            p: "Data",
-            ul: 1
-        },
-        mhh_unit: {
-            tt: {
-                KR: "MaxHit, MaxHeal 구분 기호",
-                JP: "MaxHit、MaxHeal区切り記号",
-                EN: "Separator of MaxHit, MaxHeal",
-                DE: "Trennzeichen von MaxHit, MaxHeal",
-                CN: "MaxHit，MaxHeal 分隔符",
-            },
-            m: {
-                '-': {
-                    KR: "-",
-                    JP: "-",
-                    EN: "-",
-                    DE: "-",
-                    CN: "-",
+                    },
+                    i: "content_cut",
+                    e: "li_radio",
+                    p: "Data_mhh",
+                    ul: 1
                 },
-                '/': {
-                    KR: "/",
-                    JP: "/",
-                    EN: "/",
-                    DE: "/",
-                    CN: "/",
+                mhh_unit: {
+                    tt: {
+                        KR: "MaxHit, MaxHeal 구분 기호",
+                        JP: "MaxHit、MaxHeal区切り記号",
+                        EN: "Separator of MaxHit, MaxHeal",
+                        DE: "Trennzeichen von MaxHit, MaxHeal",
+                        CN: "MaxHit，MaxHeal 分隔符",
+                    },
+                    m: {
+                        '-': {
+                            KR: "-",
+                            JP: "-",
+                            EN: "-",
+                            DE: "-",
+                            CN: "-",
+                        },
+                        '/': {
+                            KR: "/",
+                            JP: "/",
+                            EN: "/",
+                            DE: "/",
+                            CN: "/",
+                        },
+                        '❘': {
+                            KR: "❘",
+                            JP: "❘",
+                            EN: "❘",
+                            DE: "❘",
+                            CN: "❘",
+                        },
+                        '❯': {
+                            KR: "❯",
+                            JP: "❯",
+                            EN: "❯",
+                            DE: "❯",
+                            CN: "❯",
+                        }
+                    },
+                    i: "space_bar",
+                    e: "li_radio",
+                    p: "Data_mhh",
+                    ul: 0
                 },
-                '❘': {
-                    KR: "❘",
-                    JP: "❘",
-                    EN: "❘",
-                    DE: "❘",
-                    CN: "❘",
+                abb: {
+                    tt: {
+                        KR: "기술명 줄임말로 표시",
+                        JP: "技名を略語に表示",
+                        EN: "Display Abbreviate Action\'s Name",
+                        DE: "Zeige abgekürzte Fähigkeitsnamen",
+                        CN: "显示简化技能名",
+                    },
+                    i: "short_text",
+                    e: "li_checkbox",
+                    ul: 0
                 },
-                '❯': {
-                    KR: "❯",
-                    JP: "❯",
-                    EN: "❯",
-                    DE: "❯",
-                    CN: "❯",
+                abbset: {
+                    tt: {
+                        KR: "기술명 줄임말 설정",
+                        JP: "技名の略語の設定",
+                        EN: "Action\'s Name Abbreviations Settings",
+                        DE: "Einstellungen der abgekürzten Fähigkeitsnamen",
+                        CN: "设置简化技能名",
+                    },
+                    i: "insert_comment",
+                    e: "li_link",
+                    ul: 0
                 }
-            },
-            i: "space_bar",
-            e: "li_radio",
-            p: "Data",
-            ul: 0
-        },
-        abb: {
-            tt: {
-                KR: "기술명 줄임말로 표시",
-                JP: "技名を略語に表示",
-                EN: "Display Abbreviate Action\'s Name",
-                DE: "Zeige abgekürzte Fähigkeitsnamen",
-                CN: "显示简化技能名",
-            },
-            i: "short_text",
-            e: "li_checkbox",
-            ul: 0
-        },
-        abbset: {
-            tt: {
-                KR: "기술명 줄임말 설정",
-                JP: "技名の略語の設定",
-                EN: "Action\'s Name Abbreviations Settings",
-                DE: "Einstellungen der abgekürzten Fähigkeitsnamen",
-                CN: "设置简化技能名",
-            },
-            i: "insert_comment",
-            e: "li_link",
-            ul: 0
+            }
         }
     },
     format: {
@@ -836,7 +874,7 @@ l = {
                 mergedLast30DPS: d.mergedLast30DPS,
                 mergedLast60DPS: d.mergedLast60DPS,
                 mergedLast180DPS: d.mergedLast180DPS,
-                "damage%": d["damage%"],
+                damagePct: d.damagePct,
                 mergedDamage: d.mergedDamage,
                 mergedSwings: d.mergedSwings,
                 mergedHits: d.mergedHits,
@@ -844,22 +882,22 @@ l = {
                 hitfailed: d.hitfailed,
                 tohit: d.tohit,
                 mergedDirectHitCount: d.mergedDirectHitCount,
-                "DirectHit%": d["DirectHit%"],
+                DirectHitPct: d.DirectHitPct,
                 mergedCrithits: d.mergedCrithits,
-                "crithit%": d["crithit%"],
+                crithitPct: d.crithitPct,
                 mergedCritDirectHitCount: d.mergedCritDirectHitCount,
-                "CritDirectHit%": d["CritDirectHit%"],
+                CritDirectHitPct: d.CritDirectHitPct,
                 maxhit: d.maxhit,
                 enchps: d.enchps,
-                "healed%": d["healed%"],
+                healedPct: d.healedPct,
                 mergedHealed: d.mergedHealed,
                 mergedEffHealed: d.mergedEffHealed,
                 mergedDamageShield: d.mergedDamageShield,
                 mergedOverHeal: d.mergedOverHeal,
-                "overHeal%": d["overHeal%"],
+                overHealPct: d.overHealPct,
                 mergedHeals: d.mergedHeals,
                 mergedCritheals: d.mergedCritheals,
-                "critheal%": d["critheal%"],
+                crithealPct: d.crithealPct,
                 maxheal: d.maxheal,
                 mergedDamagetaken: d.mergedDamagetaken,
                 mergedHealstaken: d.mergedHealstaken,
@@ -911,7 +949,7 @@ l = {
                 mergedLast30DPS: d.mergedLast30DPS,
                 mergedLast60DPS: d.mergedLast60DPS,
                 mergedLast180DPS: d.mergedLast180DPS,
-                "damage%": d["damage%"],
+                damagePct: d.damagePct,
                 mergedDamage: d.mergedDamage,
                 mergedSwings: d.mergedSwings,
                 mergedHits: d.mergedHits,
@@ -919,22 +957,22 @@ l = {
                 hitfailed: d.hitfailed,
                 tohit: d.tohit,
                 mergedDirectHitCount: d.mergedDirectHitCount,
-                "DirectHit%": d["DirectHit%"],
+                DirectHitPct: d.DirectHitPct,
                 mergedCrithits: d.mergedCrithits,
-                "crithit%": d["crithit%"],
+                crithitPct: d.crithitPct,
                 mergedCritDirectHitCount: d.mergedCritDirectHitCount,
-                "CritDirectHit%": d["CritDirectHit%"],
+                CritDirectHitPct: d.CritDirectHitPct,
                 maxhit: d.maxhit,
                 enchps: d.enchps,
-                "healed%": d["healed%"],
+                healedPct: d.healedPct,
                 mergedHealed: d.mergedHealed,
                 mergedEffHealed: d.mergedEffHealed,
                 mergedDamageShield: d.mergedDamageShield,
                 mergedOverHeal: d.mergedOverHeal,
-                "overHeal%": d["overHeal%"],
+                overHealPct: d.overHealPct,
                 mergedHeals: d.mergedHeals,
                 mergedCritheals: d.mergedCritheals,
-                "critheal%": d["critheal%"],
+                crithealPct: d.crithealPct,
                 maxheal: d.maxheal,
                 mergedDamagetaken: d.mergedDamagetaken,
                 mergedHealstaken: d.mergedHealstaken,
@@ -1078,6 +1116,18 @@ l = {
             e: "li_link",
             ul: 0
         },
+        raid: {
+            tt: {
+                KR: "레이드 모드",
+                JP: "レイドモード",
+                EN: "Raid Mode",
+                DE: "Raid Modus",
+                CN: "Raid模式",
+            },
+            i: "grid_on",
+            e: "li_link",
+            ul: 1
+        },
         advanced: {
             tt: {
                 KR: "고급 설정",
@@ -1089,19 +1139,7 @@ l = {
             i: "pan_tool",
             e: "li_link",
             ul: 1
-        },
-        raid: {
-            tt: {
-                KR: "레이드 모드",
-                JP: "レイドモード",
-                EN: "Raid Mode",
-                DE: "Raid Modus",
-                CN: "Raid模式",
-            },
-            i: "grid_on",
-            e: "li_link",
-            ul: 0
-        },
+        }
     },
     font: {
         caution: {
@@ -1137,11 +1175,11 @@ l = {
         in_fTarget: d.input_font,
         fRPS: {
             tt: {
-                KR: "RD, RH 등<font class='ex'>　❙ 기본값 ❯ Roboto Condensed</font>",
-                JP: "RD、RHなど<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
-                EN: "RD, RH, etc.<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
-                DE: "RD, RH, usw.<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
-                CN: "RD，RH等<font class='ex'>　❙ 默认值 > Georgia</font>",
+                KR: "데이터<font class='ex'>　❙ 기본값 ❯ Roboto Condensed</font>",
+                JP: "データ<font class='ex'>　❙ 基本値 ❯ Roboto Condensed</font>",
+                EN: "Data<font class='ex'>　❙ Default ❯ Roboto Condensed</font>",
+                DE: "Daten<font class='ex'>　❙ Voreinstellung ❯ Roboto Condensed</font>",
+                CN: "数据<font class='ex'>　❙ 默认值 ❯ Georgia</font>",
             },
             e: 'li_pn',
             ul: 1
@@ -2372,6 +2410,21 @@ l = {
         }
     },
     cells: {
+        tab_title: {
+            tt: d.headerText,
+            e: "tab_btn",
+            w: 25,
+            p: "cells",
+            inner: {
+                caution: {
+                    tt: d.caution_tt,
+                    m: d.caution_m1,
+                    i: "priority_high",
+                    e: "li_box",
+                    ul: 1
+                },
+            }
+        },
         tab_width: {
             tt: {
                 KR: "너비",
@@ -2381,268 +2434,8 @@ l = {
                 CN: "宽",
             },
             e: "tab_btn",
-            w: 33.3,
-            p: "cells",
-            inner: {
-                sizeCell0: {
-                    tt: d.cell_job,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 1
-                },
-                sizeCell2: {
-                    tt: d.cell_dps,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizeCell3: {
-                    tt: d.cell_dmg,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizeCell5: {
-                    tt: d.cell_swings,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizeCell4: {
-                    tt: d.cell_max,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizeCell6: {
-                    tt: d.rps_history,
-                    min: 0,
-                    max: 200,
-                    i: "swap_horiz",
-                    e: "li_slider",
-                    ul: 0
-                }
-            }
-        },
-        tab_align: {
-            tt: {
-                KR: "정렬",
-                JP: "整列",
-                EN: "Align",
-                DE: "Ausrichten",
-                CN: "对齐",
-            },
-            e: "tab_btn",
-            w: 33.4,
-            p: "cells",
-            inner: {
-                alignHeaderCell0: {
-                    tt: {
-                        KR: "Job<font class='ex'>　❙ 헤더</font>",
-                        JP: "Job<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "Job<font class='ex'>　❙ Header</font>",
-                        DE: "Job<font class='ex'>　❙ Kopf</font>",
-                        CN: "Job<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell0: {
-                    tt: {
-                        KR: "Job<font class='ex'>　❙ 바디</font>",
-                        JP: "Job<font class='ex'>　❙ ボディ</font>",
-                        EN: "Job<font class='ex'>　❙ Body</font>",
-                        DE: "Job<font class='ex'>　❙ Körper</font>",
-                        CN: "Job<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell1: {
-                    tt: {
-                        KR: "Name<font class='ex'>　❙ 헤더</font>",
-                        JP: "Name<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "Name<font class='ex'>　❙ Header</font>",
-                        DE: "Name<font class='ex'>　❙ Kopf</font>",
-                        CN: "Name<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell1: {
-                    tt: {
-                        KR: "Name<font class='ex'>　❙ 바디</font>",
-                        JP: "Name<font class='ex'>　❙ ボディ</font>",
-                        EN: "Name<font class='ex'>　❙ Body</font>",
-                        DE: "Name<font class='ex'>　❙ Körper</font>",
-                        CN: "Name<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell2: {
-                    tt: {
-                        KR: "DPS, HPS 등<font class='ex'>　❙ 헤더</font>",
-                        JP: "DPS, HPSなど<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "DPS, HPS, etc.<font class='ex'>　❙ Header</font>",
-                        DE: "DPS, HPS, usw.<font class='ex'>　❙ Kopf</font>",
-                        CN: "DPS, HPS等<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell2: {
-                    tt: {
-                        KR: "DPS, HPS 등<font class='ex'>　❙ 바디</font>",
-                        JP: "DPS, HPSなど<font class='ex'>　❙ ボディ</font>",
-                        EN: "DPS, HPS, etc.<font class='ex'>　❙ Body</font>",
-                        DE: "DPS, HPS, usw.<font class='ex'>　❙ Körper</font>",
-                        CN: "DPS, HPS等<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell3: {
-                    tt: {
-                        KR: "Damage, Healed 등<font class='ex'>　❙ 헤더</font>",
-                        JP: "Damage, Healedなど<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "Damage, Healed, etc.<font class='ex'>　❙ Header</font>",
-                        DE: "Damage, Healed, usw.<font class='ex'>　❙ Kopf</font>",
-                        CN: "Damage, Healed等<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell3: {
-                    tt: {
-                        KR: "Damage, Healed 등<font class='ex'>　❙ 바디</font>",
-                        JP: "Damage, Healedなど<font class='ex'>　❙ ボディ</font>",
-                        EN: "Damage, Healed, etc.<font class='ex'>　❙ Body</font>",
-                        DE: "Damage, Healed, usw.<font class='ex'>　❙ Körper</font>",
-                        CN: "Damage, Healed等<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell5: {
-                    tt: {
-                        KR: "Swing, % 등<font class='ex'>　❙ 헤더</font>",
-                        JP: "Swing, %など<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "Swing, %, etc.<font class='ex'>　❙ Header</font>",
-                        DE: "Swing, %, usw.<font class='ex'>　❙ Kopf</font>",
-                        CN: "Swing, %等<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell5: {
-                    tt: {
-                        KR: "Swing, % 등<font class='ex'>　❙ 바디</font>",
-                        JP: "Swing, %など<font class='ex'>　❙ ボディ</font>",
-                        EN: "Swing, %, etc.<font class='ex'>　❙ Body</font>",
-                        DE: "Swing, %, usw.<font class='ex'>　❙ Körper</font>",
-                        CN: "Swing, %等<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell4: {
-                    tt: {
-                        KR: "MaxHit, MaxHeal<font class='ex'>　❙ 헤더</font>",
-                        JP: "MaxHit, MaxHeal<font class='ex'>　❙ ヘッダー</font>",
-                        EN: "MaxHit, MaxHeal<font class='ex'>　❙ Header</font>",
-                        DE: "MaxHit, MaxHeal<font class='ex'>　❙ Kopf</font>",
-                        CN: "MaxHit, MaxHeal<font class='ex'>　❙ 表头</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell4: {
-                    tt: {
-                        KR: "MaxHit, MaxHeal<font class='ex'>　❙ 바디</font>",
-                        JP: "MaxHit, MaxHeal<font class='ex'>　❙ ボディ</font>",
-                        EN: "MaxHit, MaxHeal<font class='ex'>　❙ Body</font>",
-                        DE: "MaxHit, MaxHeal<font class='ex'>　❙ Körper</font>",
-                        CN: "MaxHit, MaxHeal<font class='ex'>　❙ 主体</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                },
-                alignHeaderCell6: {
-                    tt: {
-                        KR: "RD, RH 등<font class='ex'>　❙ 헤더, 히스토리</font>",
-                        JP: "RD, RHなど<font class='ex'>　❙ ヘッダー、ヒストリー</font>",
-                        EN: "RD, RH, etc.<font class='ex'>　❙ Header, History</font>",
-                        DE: "RD, RH, usw.<font class='ex'>　❙ Kopf, Historie</font>",
-                        CN: "RD, RH等<font class='ex'>　❙ 表头，历史</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 1
-                },
-                alignCell6: {
-                    tt: {
-                        KR: "RD, RH 등<font class='ex'>　❙ 바디, 히스토리</font>",
-                        JP: "RD, RHなど<font class='ex'>　❙ ボディ、ヒストリー</font>",
-                        EN: "RD, RH, etc.<font class='ex'>　❙ Body, History</font>",
-                        DE: "RD, RH, usw.<font class='ex'>　❙ Körper, Historie</font>",
-                        CN: "RD, RH等<font class='ex'>　❙ 主体，历史</font>",
-                    },
-                    m: d.direction,
-                    e: "li_radio",
-                    i: "format_align_center",
-                    p: "cells_align",
-                    ul: 0
-                }
-            }
+            w: 25,
+            p: "cells"
         },
         tab_padding: {
             tt: {
@@ -2653,72 +2446,20 @@ l = {
                 CN: "边距",
             },
             e: "tab_btn",
-            w: 33.3,
-            p: "cells",
-            inner: {
-                sizePdCell0: {
-                    tt: d.cell_job,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 1
-                },
-                sizePdCell1: {
-                    tt: {
-                        KR: "Name",
-                        JP: "Name",
-                        EN: "Name",
-                        DE: "Name",
-                        CN: "Name",
-                    },
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizePdCell2: {
-                    tt: d.cell_dps,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizePdCell3: {
-                    tt: d.cell_dmg,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizePdCell5: {
-                    tt: d.cell_swings,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizePdCell4: {
-                    tt: d.cell_max,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                },
-                sizePdCell6: {
-                    tt: d.rps_history,
-                    min: 0,
-                    max: 10,
-                    i: "compare_arrows",
-                    e: "li_slider",
-                    ul: 0
-                }
-            }
+            w: 25,
+            p: "cells"
+        },
+        tab_align: {
+            tt: {
+                KR: "정렬",
+                JP: "整列",
+                EN: "Align",
+                DE: "Ausrichten",
+                CN: "对齐",
+            },
+            e: "tab_btn",
+            w: 25,
+            p: "cells"
         }
     },
     shape: {
@@ -2955,11 +2696,11 @@ l = {
                 },
                 act_rd: {
                     tt: {
-                        KR: "RDPS",
-                        JP: "RDPS",
-                        EN: "RDPS",
-                        DE: "RDPS",
-                        CN: "RDPS",
+                        KR: "RDPS<font class='ex'>　❙ Raid</font>",
+                        JP: "RDPS<font class='ex'>　❙ Raid</font>",
+                        EN: "RDPS<font class='ex'>　❙ Raid</font>",
+                        DE: "RDPS<font class='ex'>　❙ Raid</font>",
+                        CN: "RDPS<font class='ex'>　❙ Raid</font>",
                     },
                     e: "li_checkbox",
                     i: "looks_one",
@@ -2967,14 +2708,38 @@ l = {
                 },
                 act_rh: {
                     tt: {
-                        KR: "RHPS",
-                        JP: "RHPS",
-                        EN: "RHPS",
-                        DE: "RHPS",
-                        CN: "RHPS",
+                        KR: "RHPS<font class='ex'>　❙ Raid</font>",
+                        JP: "RHPS<font class='ex'>　❙ Raid</font>",
+                        EN: "RHPS<font class='ex'>　❙ Raid</font>",
+                        DE: "RHPS<font class='ex'>　❙ Raid</font>",
+                        CN: "RHPS<font class='ex'>　❙ Raid</font>",
                     },
                     e: "li_checkbox",
                     i: "looks_two",
+                    ul: 0
+                },
+                act_md: {
+                    tt: {
+                        KR: "DPS<font class='ex'>　❙ 내 캐릭터</font>",
+                        JP: "DPS<font class='ex'>　❙ 自分のキャラクター</font>",
+                        EN: "DPS<font class='ex'>　❙ My Character</font>",
+                        DE: "DPS<font class='ex'>　❙ Eigenen Charakter</font>",
+                        CN: "DPS<font class='ex'>　❙ 自己角色</font>",
+                    },
+                    e: "li_checkbox",
+                    i: "looks_3",
+                    ul: 0
+                },
+                act_mh: {
+                    tt: {
+                        KR: "HPS<font class='ex'>　❙ 내 캐릭터</font>",
+                        JP: "HPS<font class='ex'>　❙ 自分のキャラクター</font>",
+                        EN: "HPS<font class='ex'>　❙ My Character</font>",
+                        HE: "HPS<font class='ex'>　❙ Eigenen Charakter</font>",
+                        CN: "HPS<font class='ex'>　❙ 自己角色</font>",
+                    },
+                    e: "li_checkbox",
+                    i: "looks_4",
                     ul: 0
                 },
                 act_rank: {
@@ -2986,7 +2751,7 @@ l = {
                         CN: "Rank<font class='ex'>　❙ DPS 顺序 / HPS 顺序 / 总人数</font>",
                     },
                     e: "li_checkbox",
-                    i: "looks_3",
+                    i: "looks_5",
                     ul: 0
                 },
                 act_max: {
@@ -2998,7 +2763,7 @@ l = {
                         CN: "MaxHit，MaxHeal<font class='ex'>　❙ 个人角色</font>",
                     },
                     e: "li_checkbox",
-                    i: "looks_4",
+                    i: "looks_6",
                     ul: 0
                 },
                 time_italic: {
@@ -3027,11 +2792,11 @@ l = {
                 },
                 rps_italic: {
                     tt: {
-                        KR: "글자 기울임<font class='ex'>　❙ RD, RH 등</font>",
-                        JP: "イタリック体<font class='ex'>　❙ RD、RHなど</font>",
-                        EN: "Italic<font class='ex'>　❙ RD, RH, etc.</font>",
-                        DE: "Kursiv<font class='ex'>　❙ RD, RH, usw.</font>",
-                        CN: "斜体<font class='ex'>　❙ RD，RH等</font>",
+                        KR: "글자 기울임<font class='ex'>　❙ 데이터</font>",
+                        JP: "イタリック体<font class='ex'>　❙ データ</font>",
+                        EN: "Italic<font class='ex'>　❙ Data</font>",
+                        DE: "Kursiv<font class='ex'>　❙ Daten</font>",
+                        CN: "斜体<font class='ex'>　❙ 数据</font>",
                     },
                     e: "li_checkbox",
                     i: "format_italic",
@@ -3295,13 +3060,7 @@ l = {
     },
     raid: {
         tab_general: {
-            tt: {
-                KR: "일반",
-                JP: "一般",
-                EN: "General",
-                DE: "Allgemeines",
-                CN: "通用",
-            },
+            tt: d.general,
             e: "tab_btn",
             w: 25,
             p: "raid",
@@ -3319,7 +3078,7 @@ l = {
                         JP: "★人以上のパーティーでテーブルを簡略化する",
                         EN: "Display the table simply when there are ★ or more combatants.",
                         DE: "Automatische Anpassung der Graphen, falls die Anzahl der Kämpfer > ★ beträgt.",
-                        CN: "小队有★人或更多时简化图表显示",
+                        CN: "小队人数不少于★时简化图表显示",
                     },
                     m: {
                         1: {
@@ -3933,10 +3692,10 @@ l = {
         }
     },
     back: {
-        Data: "settings",
-        Design: "settings",
-        Overlay: "settings",
-        Tool: "settings",
+        Data: "Settings",
+        Design: "Settings",
+        Overlay: "Settings",
+        Tool: "Settings",
         abbset: "Data",
         format: "Data",
         order: "Data",
