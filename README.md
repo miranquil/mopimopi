@@ -1,6 +1,6 @@
 # 使用说明
 
-URL：https://ffxiv.yorushika.co/mopimopi2
+URL：[https://ffxiv.yorushika.co/mopimopi2](https://ffxiv.yorushika.co/mopimopi2)
 
 **不兼容 OverlayPlugin，需求 WebSocket 插件。**
 
