@@ -1288,7 +1288,7 @@ l = {
                 iconSet: {
                     tt: d.jobIcon,
                     m: {
-                        minimal: {
+                        colorful: {
                             KR: "Minimal",
                             JP: "Minimal",
                             EN: "Minimal",

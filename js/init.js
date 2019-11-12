@@ -47,7 +47,7 @@ Mopi2 = {
         rd_graphBL: 1,
         rd_graphBR: 1,
         pattern: "cross", 
-        iconSet: "minimal", 
+        iconSet: "colorful", 
         btn_Capture: 0, 
         btn_History: 0,
         btn_RequestEnd: 0,
