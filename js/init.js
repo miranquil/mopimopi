@@ -47,7 +47,7 @@ Mopi2 = {
         rd_graphBL: 1,
         rd_graphBR: 1,
         pattern: "cross", 
-        iconSet: "colorful", 
+        iconSet: "minimal", 
         btn_Capture: 0, 
         btn_History: 0,
         btn_RequestEnd: 0,
@@ -634,4 +634,6 @@ if (Mopi2.q.Lang === 'CN') {
     Mopi2.q.fRPS = 'Georgia'
     Mopi2.q.fHd = 'Georgia'
     Mopi2.q.fBody = '微软雅黑'
+    Mopi2.Order.DPS = ["Class", "name", "encdps", "DirectHitPct", "crithitPct", "CritDirectHitPct", "maxhit", "deaths"]
+    Mopi2.Order.HPS = ["Class", "name", "enchps", "healedPct", "mergedHealed", "overHealPct", "maxheal"]
 }
