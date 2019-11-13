@@ -634,6 +634,4 @@ if (Mopi2.q.Lang === 'CN') {
     Mopi2.q.fRPS = 'Georgia'
     Mopi2.q.fHd = 'Georgia'
     Mopi2.q.fBody = '微软雅黑'
-    Mopi2.Order.DPS = ["Class", "name", "encdps", "DirectHitPct", "crithitPct", "CritDirectHitPct", "maxhit", "deaths"]
-    Mopi2.Order.HPS = ["Class", "name", "enchps", "healedPct", "mergedHealed", "overHealPct", "maxheal"]
 }
