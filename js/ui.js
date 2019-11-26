@@ -52,21 +52,7 @@ function SubOption() {
         if (i.indexOf("Cell") > -1) {
             delete init.Range[i];
         }
-    }
-    var backup = localStorage.getItem("backup");
-    if (backup != null) {
-        for (var i in backup.q) {
-            if (i.indexOf("Cell") > -1) {
-                delete init.q[i];
-            }
-        }
-        for (var i in backup.Range) {
-            if (i.indexOf("Cell") > -1) {
-                delete init.Range[i];
-            }
-        }
-        localStorage.setItem("backup", JSON.stringify(backup))
-    }
+    }   
     localStorage.setItem("Mopi2_HAERU", JSON.stringify(init))
 }
 function initOverlay(val) {
@@ -795,8 +781,16 @@ function button(id, direction) {
                     webs.overlayAPI(id)
                 }, 1300)
                 callToast(id, 1500, 8000);
-            } else
-                webs.overlayAPI(id)
+            } else {
+                try 
+                {
+                    webs.overlayAPI(id);
+                    window.OverlayPluginApi.endEncounter();
+                }
+                catch (e){
+                    console.log("[Please Ignore] Button processing : " + e.meassage);
+                }
+            }
             break            
         case 'History':
             view = 'history'
