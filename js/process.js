@@ -9,7 +9,7 @@ var barSize = new Array(),
 function onOverlayDataUpdate(e) {
     lastDPS = lastCombat
     lastHPS = new Combatant(e, 'enchps');
-    console.log(lastDPS)
+    //console.log(lastDPS)
         
     if (view != 'settings') {
         
@@ -298,14 +298,7 @@ function cutName(name) {
 }
 function petName(job, name) {
     if (job == 'CBO') {
-        if (lang == "KR")
-            return '초코보 (YOU)'
-        else if (lang == "CN")
-            return '陆行鸟 (YOU)'
-        else if (lang == "JP")
-            return 'チョコボ (YOU)'
-        else
-            return 'Chocobo (YOU)'
+        return d.CBO.tt[lang] + " (YOU)"
     } else
         return name.split('(')[0] + '(YOU)';
 }
@@ -336,11 +329,11 @@ function addData(colName, a, p) {
                 if (a == "YOU") {                    
                     name = a
                 } else {                    
-                    if (p.petOwner == myName || p.petOwner == 'YOU')
+                    if ((p.petOwner == myName || p.petOwner == 'YOU') && myName != "")
                         name = petName(p.Job, a)                        
                     else {
                         if (p.Job == "LMB")
-                            name = 'Limit Break'
+                            name = d.LMB.tt[lang];
                         else
                             name = '';
                     }
