@@ -6,9 +6,9 @@ l = {
             CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio, XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本。<br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：务必勾选<b>OverlayProc ❯ "AppRegion"</b>以限制拖放区域。<br><br>您可以切换<b>界面语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'MopiMopi [Yorushika 191126] Based on ver 191121',
-            EN: 'MopiMopi [Yorushika 191126] Based on ver 191121',
-            CN: 'MopiMopi [Yorushika 191126] Based on ver 191121'
+            KR: 'MopiMopi [Yorushika 191205] Based on ver 191122',
+            EN: 'MopiMopi [Yorushika 191205] Based on ver 191122',
+            CN: 'MopiMopi [Yorushika 191205] Based on ver 191122'
             
         },
         update: {
@@ -433,12 +433,12 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.191121',
-                JP: 'MopiMopi ver.191121',
-                EN: 'MopiMopi ver.191121',
-                FR: 'MopiMopi ver.191121',
-                DE: 'MopiMopi ver.191121',
-                CN: "MopiMopi ver.191121",
+                KR: 'MopiMopi ver.191122',
+                JP: 'MopiMopi ver.191122',
+                EN: 'MopiMopi ver.191122',
+                FR: 'MopiMopi ver.191122',
+                DE: 'MopiMopi ver.191122',
+                CN: "MopiMopi ver.191122",
             },
             i: "new_releases",
             e: "li_2line",
