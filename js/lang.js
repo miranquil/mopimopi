@@ -6,15 +6,15 @@ l = {
             CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio, XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本。<br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：务必勾选<b>OverlayProc ❯ "AppRegion"</b>以限制拖放区域。<br><br>您可以切换<b>界面语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'MopiMopi [Yorushika 200108] Based on ver 200105',
-            EN: 'MopiMopi [Yorushika 200108] Based on ver 200105',
-            CN: 'MopiMopi [Yorushika 200108] Based on ver 200105'
+            KR: 'MopiMopi [Yorushika 200210] Based on ver 200128',
+            EN: 'MopiMopi [Yorushika 200210] Based on ver 200128',
+            CN: 'MopiMopi [Yorushika 200210] Based on ver 200128'
             
         },
         update: {
-            KR: '<div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
-            EN: '<div name="row"><div class="b">Jan 05</div><div class="m">[Lalapauwah/Github] Fixed bugs about standby mode and History table</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/2/0 Best wishes for a Happy New Year! ★★★</div></div>',
-            CN: '<div name="row"><div class="b">Jan 05</div><div class="m">[Lalapauwah/Github] 修复待机模式和历史记录表的bug</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/2/0 新年快乐！ ★★★</div></div>'
+            KR: '<div name="row"><div class="b">1/28</div><div class="m">[BigOzzyOz/Github, Jan Holtschke/Gmail] FFXIV-DE 기공사 소환수 이름 수정</div></div><div name="row"><div class="b">01/20</div><div class="m">[Dave Klausz/Gmail] 글자 기울임 오동작 버그 수정</div></div><div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
+            EN: '<div name="row"><div class="b">Jan 28</div><div class="m">[BigOzzyOz/Github, Jan Holtschke/Gmail] Fixed a bug about MCH\'s pets name</div></div><div name="row"><div class="b">Jan 20</div><div class="m">[Dave Klausz/Gmail] Fixed bugs about Italic options</div></div><div name="row"><div class="b">Jan 05</div><div class="m">[Lalapauwah/Github] Fixed bugs about standby mode and History table</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/2/0 Best wishes for a Happy New Year! ★★★</div></div>',
+            CN: '<div name="row"><div class="b">Jan 28</div><div class="m">[BigOzzyOz/Github, Jan Holtschke/Gmail] 修复机工士召唤物名称的相关bug</div></div><div name="row"><div class="b">Jan 20</div><div class="m">[Dave Klausz/Gmail] 修复斜体设置项的相关bug</div></div><div name="row"><div class="b">Jan 05</div><div class="m">[Lalapauwah/Github] 修复待机模式和历史记录表的bug</div></div><div name="row"><div class="n">Jan 01</div><div class="m">★★★ 2/0/2/0 新年快乐！ ★★★</div></div>'
         },
 
     },
@@ -434,12 +434,12 @@ l = {
                 CN: "版本",
             },
             m: {
-                KR: 'MopiMopi ver.200105',
-                JP: 'MopiMopi ver.200105',
-                EN: 'MopiMopi ver.200105',
-                FR: 'MopiMopi ver.200105',
-                DE: 'MopiMopi ver.200105',
-                CN: "MopiMopi ver.200105",
+                KR: 'MopiMopi ver.200128',
+                JP: 'MopiMopi ver.200128',
+                EN: 'MopiMopi ver.200128',
+                FR: 'MopiMopi ver.200128',
+                DE: 'MopiMopi ver.200128',
+                CN: "MopiMopi ver.200128",
             },
             i: "new_releases",
             e: "li_2line",
