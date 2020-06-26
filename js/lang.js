@@ -6,10 +6,10 @@ l = {
             CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备和直播(OBS Studio, XSplit等)用户<br>需要安装<a href="https://github.com/ZCube/ACTWebSocket/releases" target="_blank">ACTWebsocket 1.3.3.9或更高</a>版本。<br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：务必勾选<b>OverlayProc ❯ "AppRegion"</b>以限制拖放区域。<br><br>您可以切换<b>界面语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'MopiMopi [Yorushika 200210] Based on ver 200128',
-            EN: 'MopiMopi [Yorushika 200210] Based on ver 200128',
-            CN: 'MopiMopi [Yorushika 200210] Based on ver 200128'
-            
+            KR: 'MopiMopi [Miranquil 200626] Based on ver 200128',
+            EN: 'MopiMopi [Miranquil 200626] Based on ver 200128',
+            CN: 'MopiMopi [Miranquil 200626] Based on ver 200128'
+
         },
         update: {
             KR: '<div name="row"><div class="b">01/28</div><div class="m">[BigOzzyOz/Github, Jan Holtschke/Gmail] FFXIV-DE 기공사 소환수 이름 수정</div></div><div name="row"><div class="b">01/20</div><div class="m">[Dave Klausz/Gmail] 글자 기울임 오동작 버그 수정</div></div><div name="row"><div class="b">01/05</div><div class="m">[Lalapauwah/Github] 대기 모드 및 히스토리 테이블 오동작 버그 수정</div></div><div name="row"><div class="n">01/01</div><div class="m">★★★ 2020년에도 모피모피와 함께! 새해 복 많이 받으세요! ★★★</div></div>',
