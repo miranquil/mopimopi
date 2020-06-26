@@ -230,8 +230,8 @@ Mopi2 = {
         "Refulgent Arrow": "Ref.Arrow",
         "Double Standard Finish": "D.S Finish",
         "Quadruple Technical Finish": "Q.T Finish",
-        "标准舞步结束": "标准闭幕",
-        "技巧舞步结束": "技巧闭幕"
+        "双色标准舞步结束": "标准闭幕",
+        "四色技巧舞步结束": "技巧闭幕"
     },    
     Order: {
         DPS: ["Class", "name", "encdps", "damagePct", "mergedDamage", "mergedSwings", "DirectHitPct", "crithitPct", "CritDirectHitPct", "maxhit", "deaths"],
