@@ -347,11 +347,11 @@ l = {
                     CN: "日本語<font class='ex'>　❙ by Korea [모그리] 오후의홍차, 이카루가</font>"
                 },
                 CN: {
-                    KR: "简体中文<font class='ex'>　❙ by China [海猫茶屋] 绿叶小踢腿</font>",
-                    JP: "简体中文<font class='ex'>　❙ by China [海猫茶屋] 绿叶小踢腿</font>",
-                    EN: "简体中文<font class='ex'>　❙ by China [海猫茶屋] 绿叶小踢腿</font>",
-                    DE: "简体中文<font class='ex'>　❙ by China [海猫茶屋] 绿叶小踢腿</font>",
-                    CN: "简体中文<font class='ex'>　❙ by China [海猫茶屋] 绿叶小踢腿</font>",
+                    KR: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 拉娜·米果</font>",
+                    JP: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 拉娜·米果</font>",
+                    EN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 拉娜·米果</font>",
+                    DE: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 拉娜·米果</font>",
+                    CN: "简体中文<font class='ex'>　❙ by China [紫水栈桥] 拉娜·米果</font>",
                 },
                 DE: {
                     KR: "Deutsch<font class='ex'>　❙ by Chaos [Phoenix] Shunittseru Tohka</font>",
