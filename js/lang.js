@@ -6,9 +6,9 @@ l = {
             CN: '<b style="color:#ffea00">MopiMopi<br>享受无与伦比的客制化！</b><br><br>移动设备环境下推荐使用<b>Chrome&Safari</b>应用。<br>PC用户：务必勾选<b>OverlayProc ❯ "AppRegion"</b>以限制拖放区域。<br><br><font style="color:cyan">FFXIV_ACT_Plugin版本2.0.2.3或更高时<br>ACT → Plugins → FFXIV Settings 标签页 → <b>勾选"取消召唤物伤害合并"</b>.</font><br><br>您可以切换<b>界面语言</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">简体中文</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a><br>'
         },
         tip: {
-            KR: 'MopiMopi [Miranquil 200626] Based on ver 200128',
-            EN: 'MopiMopi [Miranquil 200626] Based on ver 200128',
-            CN: 'MopiMopi [Miranquil 200626] Based on ver 200128'
+            KR: 'MopiMopi [Miranquil 210107] Based on ver 200128',
+            EN: 'MopiMopi [Miranquil 210107] Based on ver 200128',
+            CN: 'MopiMopi [Miranquil 210107] Based on ver 200128'
 
         },
         update: {
@@ -346,11 +346,11 @@ l = {
                     CN: "日本語<font class='ex'>　❙ by Korea [모그리] 오후의홍차, 이카루가</font>"
                 },
                 CN: {
-                    KR: "简体中文<font class='ex'>　❙ by China [拉诺西亚] 拉娜·米果</font>",
-                    JP: "简体中文<font class='ex'>　❙ by China [拉诺西亚] 拉娜·米果</font>",
-                    EN: "简体中文<font class='ex'>　❙ by China [拉诺西亚] 拉娜·米果</font>",
-                    DE: "简体中文<font class='ex'>　❙ by China [拉诺西亚] 拉娜·米果</font>",
-                    CN: "简体中文<font class='ex'>　❙ by China [拉诺西亚] 拉娜·米果</font>",
+                    KR: "简体中文<font class='ex'>　❙ by China [沃仙溪染] 普西拉</font>",
+                    JP: "简体中文<font class='ex'>　❙ by China [沃仙溪染] 普西拉</font>",
+                    EN: "简体中文<font class='ex'>　❙ by China [沃仙溪染] 普西拉</font>",
+                    DE: "简体中文<font class='ex'>　❙ by China [沃仙溪染] 普西拉</font>",
+                    CN: "简体中文<font class='ex'>　❙ by China [沃仙溪染] 普西拉</font>",
                 },
                 DE: {
                     KR: "Deutsch<font class='ex'>　❙ by Chaos [Phoenix] Shunittseru Tohka</font>",
